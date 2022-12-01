@@ -1,13 +1,13 @@
 main {
 	position: relative;
-	width: 375px;
-	height: 812px;
-	background: #ececf0;
+  width: 375px;
+  height: 812px;
+  background: #ececf0;
 }
 
 #NavBar-status-light {
-	position: absolute;
-	width: 375px;
+  position: absolute;
+  width: 375px;
 	height: 44px;
 	left: calc(50% - 375px / 2);
 	top: 0px;
@@ -312,7 +312,7 @@ ul {
 	left: -3px;
 	top: 104px;
 	background: url(./Scr/images/header-shapes\ mobile.png);
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
 
 #Toolbar-Dark-Compact {
