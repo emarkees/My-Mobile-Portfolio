@@ -16,7 +16,9 @@
 			<script  type="text/javascript" scr="script.js"></script>
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 			<link href="svg.link" type="text/css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,20 +30,65 @@
 		</head>
 		<body>
 			<main>
-				<nav id="NavBar-Compact-Dark-iOS">
-					<div id="NavToolbar-Dark-Compact">
+				<div class="header-background-mobile"></div>
+				<nav id="NavBar-status-light">
+					<time id="Time-Style">
+						<time class="Time">9:45</time>
+					</time>
+						<i class="fa-solid fa-wifi fa-xs"></i>	
+					<div class="sig-wf-bat">
+						<div class="signals">
+							<i class="fa-duotone fa-signal-bars-weak"></i>
+							<i class="fa-duotone fa-signal-bars-fair"></i>
+							<i class="fa-duotone fa-signal-bars-good"></i>
+							<i class="fa-duotone fa-signal-bars-strong"></i>
+						</div>
+						<div class="Battery">
+							<span class="Capacity"></span>
+							<span class="Border"></span>
+							<span class="Cap"></span>
+						</div>
+						<div class="wifi" >
+							<i class="fa-duotone fa-wifi-weak"></i>
+						</div>
+					</div>
+					</div>
+					<span class="rectangle"></span>
+				</nav>
+				<header id="AppBar-Compact-Dark-iOS">
+					<div id="Toolbar-Dark-Compact">
 						<div class="Normal-Buttn-Tert-Enabled">
-							<div id="NavIcon-Menu" >
-								<div onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></div>
-							</div>
+								<div id="NavIcon-Menu" >
+									<div onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></div>
+								</div>
 						</div>
 					</div>
 					<div class="Logo-Placeholder">
-						<div class="MyLogo">MY LOGO</div>
+						<div class="MyLogo">My Logo</div>
 					</div>
-					<span class="Toolbar-container"></span>
-					<span class="container"></span>
-				</nav>
+				</header>
+				<div class="Headlines">
+					<div class="pry-Txt-Headlines">
+						<p>I’m Adeyemi
+							Glad to see you!</p>
+					</div>
+						<p class="pry-Txt-Body">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+					<div class="social">
+						<div class="Supportng-Text">
+							<p class="connect">LET'S CONNECT</p>
+						</div>
+					</div>
+					<div class="social-media-icons">
+						<ul>
+							<li><a href="twitter.com/McEmarkees.com"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+							<li><a href="Linkedin.com/emarkees.com"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+							<li><a href="github.com/emarkees.com"><i class="fa-brands fa-github fa-xl"></i></a></li>
+							<li><a href="github.com/emarkees.com"><i class="fab fa-medium fa-xl"></i></a></li>
+							<li><a href="anglrlist.com"><i class="fa-brands fa-angellist fa-xl"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<span class="header-shape"></span>
 			</main>
 		</body>
 	</html>

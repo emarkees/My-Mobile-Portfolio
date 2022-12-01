@@ -1,0 +1,388 @@
+main {
+	position: relative;
+	width: 375px;
+	height: 812px;
+	background: #ececf0;
+}
+
+#NavBar-status-light {
+	position: absolute;
+	width: 375px;
+	height: 44px;
+	left: calc(50% - 375px / 2);
+	top: 0px;
+}
+
+#Time-Style {
+	position: absolute;
+	width: 54px;
+	height: 21px;
+	left: 21px;
+	top: 13px;
+}
+
+.Time {
+	position: absolute;
+	width: 54px;
+	height: 16px;
+	left: 0px;
+	top: calc(50% - 16px / 2 + 0.5px);
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: -0.28px;
+	color: #000000;
+}
+
+.sig-wf-bat .signals .Battery{
+	position: absolute;
+	width: 66.66px;
+	height: 11.34px;
+	left: 293.67px;
+	top: 17.33px;
+}
+
+.signals .fa-signal-bars-weak .fa-signal-bars-fair{
+	position: absolute;
+	width: 17px;
+	height: 10.67px;
+	right: 64.33px;
+	top: 17.67px;
+	
+}
+
+.fa-duotone {
+  border-radius: 20px;
+}
+
+.fa-signal-bars-weak {
+  position: absolute;
+  width: 3px;
+  height: 4px;
+  right: 78px;
+  top: 24.33px;
+  background: #000;
+}
+
+.fa-signal-bars-fair {
+  position: absolute;
+  width: 3px;
+  height: 6px;
+  right: 74px;
+  top: 22.33px;
+  background: #000;
+}
+
+.fa-signal-bars-good {
+  position: absolute;
+  width: 3px;
+  height: 8.33px;
+  right: 70px;
+  top: 20px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.fa-signal-bars-strong {
+  position: absolute;
+  width: 3px;
+  height: 10.67px;
+  right: 66px;
+  top: 17.67px;
+  background: #000000;
+}
+
+.fa-wifi {
+	position: absolute;
+	width: 4.63px;
+	height: 3.37px;
+	right: 55.36px;
+	top: 22.92px;
+}
+
+.Battery .Capacity .Cap .Border {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 42px;
+  top: 17.33px;
+}
+
+.Capacity {
+  position: absolute;
+  width: 18px;
+  height: 7.33px;
+  right: 19px;
+  top: 19.33px;
+  background: #000;
+  border-radius: 1.33333px;
+}
+
+.Cap {
+  position: absolute;
+  width: 1.33px;
+  height: 4px;
+  right: 14.67px;
+  top: 21px;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.Border {
+  box-sizing: border-box;
+  position: absolute;
+  width: 22px;
+  height: 11.33px;
+  right: 17px;
+  top: 17.33px;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+  border: 1px solid #000000;
+  border-radius: 2.66667px;
+}
+
+.rectangle {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+}
+
+#AppBar-Compact-Dark-iOS {
+	position: absolute;
+	width: 375px;
+	height: 92px;
+	left: 0px;
+	top: 0px;
+}
+
+.Headlines {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 114px 24px;
+	position: absolute;
+	width: 375px;
+	height: 604px;
+	left: calc(50% - 375px / 2);
+	top: 92px;
+}
+
+.pry-Txt-Headlines {
+	width: 327px;
+	height: 150px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;	
+	display: flex;
+	align-items: center;
+	color: #172B4D;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.pry-Txt-Body {
+	width: 327px;
+	height: 146px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 24px;
+	color: #344563;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	width: 121px;
+	height: 24px;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+
+.Supportng-Text {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 121px;
+	height: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.connect {
+	width: 120px;
+	height: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #7F8CFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.social-media-icons {
+	width: 170.17px;
+	height: 20px;
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+}
+
+ul {
+		list-style-type: none;
+}
+.fa-twitter {
+	position: absolute;
+	left: 6.4%;
+	right: 88.27%;
+	top: 57.2%;
+	bottom: 18.88%;
+	color: #505F79;
+}
+
+.fa-linkedin {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 63px;
+	top: 475.9px;
+	color: #505F79;
+}
+
+.fa-github {
+	position: absolute;
+	left: 32.13%;
+	right: 57.07%;
+	top: 57.2%;
+	bottom: 18.87%;
+	color: #505F79;
+}
+
+.fa-medium {
+	position: absolute;
+	left: 23.47%;
+	right: 67.2%;
+	top: 55.78%;
+	bottom: 18.87%;
+	color: #505F79;
+}
+
+.fa-angellist {
+	position: absolute;
+	left: 41%;
+	right: 48.22%;
+	top: 57.2%;
+	bottom: 18.87%;
+	color: #505F79;
+}
+
+.header-background-mobile {
+	position: absolute;
+	width: 375px;
+	height: 718px;
+	left: 0px;
+	top: 0px;
+	background: #fff;
+	border-radius: 0 0 0 70px;
+}
+
+.header-shape {
+	position: absolute;
+	width: 375px;
+	height: 587.15px;
+	left: -3px;
+	top: 104px;
+	background: url(./Scr/images/header-shapes\ mobile.png);
+	background-repeat: no-repeat;	
+}
+
+#Toolbar-Dark-Compact {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 44px;
+	bottom: 0px;
+}
+
+.Normal-Buttn-Tert-Enabled {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	right: 24px;
+	top: calc(50% - 15px / 2);
+	border-radius: 8px;
+	justify-content: center;
+}
+
+#NavIcon-Menu {
+	width: 24px;
+	height: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.fa-bars {
+	position: absolute;
+	width: 18px;
+	height: 12px;
+	left: 3px;
+	top: 6px;
+	color: #6070FF;
+}
+
+.Logo-Placeholder {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 14px 12px;
+	position: absolute;
+	width: 110px;
+	height: 20px;
+	left: 12px;
+	top: calc(50% - 4px / 2);
+	justify-content: center;
+	align-content: center;
+}
+
+.MyLogo {
+	width: 85px;
+	height: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #6070FF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
