@@ -82,7 +82,7 @@ main {
   background: #000;
 }
 
-.fa-signal-bars-fair .signals  .fa-signal-bars-weak {
+.signals .fa-signal-bars-fair .fa-signal-bars-weak {
   position: absolute;
   width: 17px;
   height: 10.67px;
