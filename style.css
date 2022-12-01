@@ -1,8 +1,8 @@
 main {
 	position: relative;
- width: 375px;
- height: 812px;
- background: #ececf0;
+  width: 375px;
+  height: 812px;
+  background: #ececf0;
 }
 
 #NavBar-status-light {
@@ -10,7 +10,7 @@ main {
  width: 375px;
 	height: 44px;
 	left: calc(50% - 375px / 2);
-	top: 0px;
+	top: 0;
 }
 
 #Time-Style {
