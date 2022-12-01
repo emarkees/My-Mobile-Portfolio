@@ -34,10 +34,10 @@ main {
 	line-height: 16px;
 	text-align: center;
 	letter-spacing: -0.28px;
-	color: #000000;
+	color: #000;
 }
 
-.sig-wf-bat .signals .Battery{
+.sig-wf-bat .signals .Battery {
 	position: absolute;
 	width: 66.66px;
 	height: 11.34px;
@@ -45,57 +45,56 @@ main {
 	top: 17.33px;
 }
 
-.signals .fa-signal-bars-weak .fa-signal-bars-fair{
+.signals .fa-signal-bars-weak .fa-signal-bars-fair {
 	position: absolute;
 	width: 17px;
 	height: 10.67px;
 	right: 64.33px;
 	top: 17.67px;
-	
 }
 
 .fa-duotone {
-  border-radius: 20px;
+	border-radius: 20px;
 }
 
 .fa-signal-bars-weak {
-  position: absolute;
-  width: 3px;
-  height: 4px;
-  right: 78px;
-  top: 24.33px;
-  background: #000;
+	position: absolute;
+	width: 3px;
+	height: 4px;
+	right: 78px;
+	top: 24.33px;
+	background: #000;
 }
 
 .fa-signal-bars-fair {
-  position: absolute;
-  width: 3px;
-  height: 6px;
-  right: 74px;
-  top: 22.33px;
-  background: #000;
+	position: absolute;
+	width: 3px;
+	height: 6px;
+	right: 74px;
+	top: 22.33px;
+	background: #000;
 }
 
 .fa-signal-bars-good {
   position: absolute;
-  width: 3px;
-  height: 8.33px;
-  right: 70px;
-  top: 20px;
-  border-radius: 10px;
-  background: #000;
+	width: 3px;
+	height: 8.33px;
+	right: 70px;
+	top: 20px;
+	border-radius: 10px;
+	background: #000;
 }
 
 .fa-signal-bars-strong {
-  position: absolute;
-  width: 3px;
-  height: 10.67px;
-  right: 66px;
-  top: 17.67px;
-  background: #000000;
+	position: absolute;
+	width: 3px;
+	height: 10.67px;
+	right: 66px;
+	top: 17.67px;
+	background: #000;
 }
 
-.fa-wifi {
+.fa-wifi { 
 	position: absolute;
 	width: 4.63px;
 	height: 3.37px;
@@ -104,45 +103,45 @@ main {
 }
 
 .Battery .Capacity .Cap .Border {
-  position: absolute;
-  width: 24.33px;
-  height: 11.33px;
-  left: 42px;
-  top: 17.33px;
+	position: absolute;
+	width: 24.33px;
+	height: 11.33px;
+	left: 42px;
+	top: 17.33px;
 }
 
 .Capacity {
-  position: absolute;
-  width: 18px;
-  height: 7.33px;
-  right: 19px;
-  top: 19.33px;
-  background: #000;
-  border-radius: 1.33333px;
+	position: absolute;
+	width: 18px;
+	height: 7.33px;
+	right: 19px;
+	top: 19.33px;
+	background: #000;
+	border-radius: 1.33333px;
 }
 
 .Cap {
-  position: absolute;
-  width: 1.33px;
-  height: 4px;
-  right: 14.67px;
-  top: 21px;
-  background: #000000;
-  mix-blend-mode: normal;
-  opacity: 0.4;
+	position: absolute;
+	width: 1.33px;
+	height: 4px;
+	right: 14.67px;
+	top: 21px;
+	background: #000;
+	mix-blend-mode: normal;
+	opacity: 0.4;
 }
 
 .Border {
-  box-sizing: border-box;
-  position: absolute;
-  width: 22px;
-  height: 11.33px;
-  right: 17px;
-  top: 17.33px;
-  mix-blend-mode: normal;
-  opacity: 0.35;
-  border: 1px solid #000000;
-  border-radius: 2.66667px;
+	box-sizing: border-box;
+	position: absolute;
+	width: 22px;
+	height: 11.33px;
+	right: 17px;
+	top: 17.33px;
+	mix-blend-mode: normal;
+	opacity: 0.35;
+	border: 1px solid #000;
+	border-radius: 2.66667px;
 }
 
 .rectangle {
@@ -183,7 +182,7 @@ main {
 	line-height: 52px;	
 	display: flex;
 	align-items: center;
-	color: #172B4D;
+	color: #172b4d;
 	flex: none;
 	order: 0;
 	flex-grow: 0;
@@ -257,7 +256,7 @@ ul {
 	right: 88.27%;
 	top: 57.2%;
 	bottom: 18.88%;
-	color: #505F79;
+	color: #505f79;
 }
 
 .fa-linkedin {
@@ -266,7 +265,7 @@ ul {
 	height: 20px;
 	left: 63px;
 	top: 475.9px;
-	color: #505F79;
+	color: #505f79;
 }
 
 .fa-github {
@@ -275,7 +274,7 @@ ul {
 	right: 57.07%;
 	top: 57.2%;
 	bottom: 18.87%;
-	color: #505F79;
+	color: #505f79;
 }
 
 .fa-medium {
@@ -284,7 +283,7 @@ ul {
 	right: 67.2%;
 	top: 55.78%;
 	bottom: 18.87%;
-	color: #505F79;
+	color: #505f79;
 }
 
 .fa-angellist {
@@ -293,7 +292,7 @@ ul {
 	right: 48.22%;
 	top: 57.2%;
 	bottom: 18.87%;
-	color: #505F79;
+	color: #505f79;
 }
 
 .header-background-mobile {
@@ -352,7 +351,7 @@ ul {
 	height: 12px;
 	left: 3px;
 	top: 6px;
-	color: #6070FF;
+	color: #6070ff;
 }
 
 .Logo-Placeholder {
@@ -372,7 +371,7 @@ ul {
 .MyLogo {
 	width: 85px;
 	height: 20px;
-	font-family: 'Poppins';
+	font-family: 'Poppins', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
@@ -380,9 +379,8 @@ ul {
 	display: flex;
 	align-items: center;
 	text-align: center;
-	color: #6070FF;
+	color: #6070ff;
 	flex: none;
 	order: 0;
 	flex-grow: 0;
 }
-
