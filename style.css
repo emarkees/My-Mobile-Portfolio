@@ -25,7 +25,7 @@ main {
   position: absolute;
   width: 54px;
   height: 16px;
-  left: 0px;
+  left: 0;
   top: calc(50% - 16px / 2 + 0.5px);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -67,7 +67,7 @@ main {
 }
 
 .fa-signal-bars-fair {
-   position: absolute;
+  position: absolute;
   width: 3px;
   height: 6px;
   right: 74px;
@@ -102,7 +102,7 @@ main {
   top: 22.92px;
 }
 
-.Battery .Capacity .Cap .Border {
+.Battery .Capacity .Border .Cap {
   position: absolute;
   width: 24.33px;
   height: 11.33px;
@@ -154,10 +154,10 @@ main {
 
 #AppBar-Compact-Dark-iOS {
   position: absolute;
-   width: 375px;
+  width: 375px;
   height: 92px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .Headlines {
@@ -233,7 +233,7 @@ main {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -318,10 +318,10 @@ ul {
 
 #Toolbar-Dark-Compact {
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 44px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .Normal-Buttn-Tert-Enabled {
@@ -348,7 +348,7 @@ ul {
 
 .fa-bars {
   position: absolute;
-   width: 18px;
+  width: 18px;
   height: 12px;
   left: 3px;
   top: 6px;
