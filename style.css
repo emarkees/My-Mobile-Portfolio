@@ -45,18 +45,6 @@ main {
   top: 17.33px;
 }
 
-.fa-signal-bars-fair .signals  .fa-signal-bars-weak {
-  position: absolute;
-  width: 17px;
-  height: 10.67px;
-  right: 64.33px;
-  top: 17.67px;
-}
-
-.fa-duotone {
-  border-radius: 20px;
-}
-
 .fa-signal-bars-weak {
   position: absolute;
   width: 3px;
@@ -94,30 +82,24 @@ main {
   background: #000;
 }
 
+.fa-signal-bars-fair .signals  .fa-signal-bars-weak {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64.33px;
+  top: 17.67px;
+}
+
+.fa-duotone {
+  border-radius: 20px;
+}
+
 .fa-wifi {
   position: absolute;
   width: 4.63px;
   height: 3.37px;
   right: 55.36px;
   top: 22.92px;
-}
-
-.Cap .Battery .Capacity .Border .Cap {
-  position: absolute;
-  width: 24.33px;
-  height: 11.33px;
-  left: 42px;
-  top: 17.33px;
-}
-
-.Capacity {
-  position: absolute;
-  width: 18px;
-  height: 7.33px;
-  right: 19px;
-  top: 19.33px;
-  background: #000;
-  border-radius: 1.3px;
 }
 
 .Cap {
@@ -131,6 +113,16 @@ main {
   opacity: 0.4;
 }
 
+.Capacity {
+  position: absolute;
+  width: 18px;
+  height: 7.33px;
+  right: 19px;
+  top: 19.33px;
+  background: #000;
+  border-radius: 1.3px;
+}
+
 .Border {
   box-sizing: border-box;
   position: absolute;
@@ -142,6 +134,14 @@ main {
   opacity: 0.35;
   border: 1px solid #000;
   border-radius: 2.66667px;
+}
+
+.Cap.Battery .Capacity .Border .Cap {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 42px;
+  top: 17.33px;
 }
 
 .rectangle {
