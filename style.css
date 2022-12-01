@@ -45,7 +45,7 @@ main {
   top: 17.33px;
 }
 
-.signals .fa-signal-bars-fair .fa-signal-bars-weak {
+.fa-signal-bars-fair .signals  .fa-signal-bars-weak {
   position: absolute;
   width: 17px;
   height: 10.67px;
@@ -102,7 +102,7 @@ main {
   top: 22.92px;
 }
 
-.Battery .Capacity .Border .Cap {
+.Cap .Battery .Capacity .Border .Cap {
   position: absolute;
   width: 24.33px;
   height: 11.33px;
