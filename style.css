@@ -94,7 +94,7 @@ main {
 	background: #000;
 }
 
-.fa-wifi { 
+.fa-wifi {
 	position: absolute;
 	width: 4.63px;
 	height: 3.37px;
@@ -179,7 +179,7 @@ main {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
-	line-height: 52px;	
+	line-height: 52px;
 	display: flex;
 	align-items: center;
 	color: #172b4d;
