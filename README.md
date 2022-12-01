@@ -24,7 +24,7 @@ In the project directory, you can run:
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
-The page will reload when you make changes.
+The page will reload when changes are made..
 You may also see any lint errors in the console.
 
 ### npm test
@@ -67,7 +67,8 @@ Feel free to check the issues page.
 ## Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+## Acknowledgments
 Microverse
+
 ## 📝 License
 This project is MIT licensed.
