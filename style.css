@@ -5,14 +5,6 @@ main{
   background: #ececf0;
 }
 
-#NavBar-status-light {
-  position: absolute;
-  width: 375px;
-  height: 44px;
-  left: calc(50% - 375px / 2);
-  top: 0;
-}
-
 #Time-Style {
   position: absolute;
   width: 54px;
