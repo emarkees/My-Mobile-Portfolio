@@ -1,4 +1,4 @@
-main {
+main{
   position: relative;
   width: 375px;
   height: 812px;
@@ -172,14 +172,14 @@ main {
   top: 92px;
 }
 
-.pry-Txt-Headlines {
+.pry-Txt-Headlin {
   width: 327px;
   height: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 29px;
+  line-height: 45px;
   display: flex;
   align-items: center;
   color: #172b4d;
@@ -226,7 +226,7 @@ main {
 }
 
 .connect {
-  width: 120px;
+  width: 125px;
   height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -324,18 +324,19 @@ ul {
   bottom: 0;
 }
 
+
 .Normal-Buttn-Tert-Enabled {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 8px;
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: calc(50% - 15px / 2);
+  width: 25px;
+  height: 25px;
+  right: 25px;
+  top: calc(50% - 40px / 2);
   border-radius: 8px;
-  justify-content: center;
+  justify-items: center;
 }
 
 #NavIcon-Menu {
@@ -344,14 +345,21 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  background-color: #fff;
+  border: none
+}
+
+button {
+  color: none;
+  background-color: none;
 }
 
 .fa-bars {
   position: absolute;
   width: 18px;
   height: 12px;
-  left: 3px;
-  top: 6px;
+  left: 11.52px;
+  top: 20.5px;
   color: #6070ff;
 }
 
@@ -384,4 +392,5 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-decoration: none;
 }
