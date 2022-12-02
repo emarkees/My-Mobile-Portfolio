@@ -1,54 +1,75 @@
-# My-Mobile-Portfolio
+# 📗 Table of Contents
 
-My-Mobile-Portfolioio is a project built as a student of Microverse, this websiteis where share projects and information about myself.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## 🛠 Built With
-This app is built using the following
 
-HTML
-CSS
+# 📖 [My-Mobile-Portfolio] <a name="about-project"></a>
 
-# Getting Started
-To get a local copy up and running, follow these simple example steps.
+**[My-Mobile-Portfolio]** is a project built as a student of Microverse, this websiteis where share projects and information about myself.
 
-## Prerequisites
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+This project was made with:
+
+- html
+- css
+
+### Key Features <a name="key-features"></a>
+
+- **[header-background-mobile]**
+- **[Headline]**
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
 In order to run this project you need:
 
-- Install a modern browser e.g Google Chrome, Safari
-- Have git installed.
-- Have the LTS version of Node.js installed.
+- have installed a code editor.
 
 ### Setup
+
 Clone this repository to your desired folder:
 
-git clone git@github.com:emarkees/My-Mobile-Portfolio.git
+cd my-folder 
+git@github.com:emarkees/My-Mobile-Portfolio.git
 
-- Run npm install to download required modules locally
+## 👥 Authors <a name="authors"></a>
 
-## Run test
-Launches the test runner in the interactive watch mode.
+👤 **Author1** Adeyemi Olusola
 
-## Deployment
-You can deploy this project using: 
+- GitHub: [@emarkees](https://github.com/emarkees)
+- Twitter: [@McEmarkees](https://twitter.com/McEmarkees)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/)
 
-Any web server that can host a Node.js runtime environment.
+## 🤝 Contributing <a name="contributing"></a>
 
-# Author
-👤Adeyemi OLusola
-
-GitHub: @emarkees
-Twitter: @McEmarkees
-LinkedIn: LinkedIn
-
-## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-Acknowledgments
-Microverse
-## 📝 License
-This project is MIT licensed.
+If you like this project...
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank... > Microverse
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
