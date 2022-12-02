@@ -1,0 +1,256 @@
+main {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background: #ececf0;
+}
+
+.rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+#AppBar-Compact-Dark-iOS {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+}
+
+.Headlines {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+}
+
+.pry-Txt-Headlin {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pry-Txt-Body {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 121px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.Supportng-Text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 121px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.connect {
+  width: 125px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-media-icons {
+  width: 170.17px;
+  height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.fa-twitter {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 57.2%;
+  bottom: 18.88%;
+  color: #505f79;
+}
+
+.fa-linkedin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 63px;
+  top: 475.9px;
+  color: #505f79;
+}
+
+.fa-github {
+  position: absolute;
+  left: 32.13%;
+  right: 57.07%;
+  top: 57.2%;
+  bottom: 18.87%;
+  color: #505f79;
+}
+
+.fa-medium {
+  position: absolute;
+  left: 23.47%;
+  right: 67.2%;
+  top: 55.78%;
+  bottom: 18.87%;
+  color: #505f79;
+}
+
+.fa-angellist {
+  position: absolute;
+  left: 41%;
+  right: 48.22%;
+  top: 57.2%;
+  bottom: 18.87%;
+  color: #505f79;
+}
+
+.header-background-mobile {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0;
+  top: 0;
+  background: #fff;
+  border-radius: 0 0 0 70px;
+}
+
+.header-shape {
+  position: absolute;
+  width: 375px;
+  height: 587.15px;
+  left: -3px;
+  top: 104px;
+  background: url(./Scr/images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+}
+
+#Toolbar-Dark-Compact {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+}
+
+.Normal-Buttn-Tert-Enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 25px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+  justify-items: center;
+}
+
+#NavIcon-Menu {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-color: #fff;
+  border: none;
+}
+
+button {
+  color: none;
+  background-color: none;
+}
+
+.fa-bars {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  left: 11.52px;
+  top: 20.5px;
+  color: #6070ff;
+}
+
+.Logo-Placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 12px;
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  left: 12px;
+  top: calc(50% - 4px / 2);
+  justify-content: center;
+  align-content: center;
+}
+
+.MyLogo {
+  width: 85px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
