@@ -310,14 +310,16 @@ button {
   align-items: flex-start;
   padding: 0;
   gap: 12px;
-}
-
-.block_bg {
-  width: 295px;
-  height: 288px;
   flex: none;
   order: 1;
   flex-grow: 0;
+  background: rgb(167, 55, 55);
+}
+
+.block_bl {
+  width: 295px;
+  height: 288px;
+  
 }
 
 .primary {
@@ -326,6 +328,7 @@ button {
   align-items: flex-start;
   padding: 0;
   gap: 12px;
+  background: rgb(218, 188, 188);
 }
 
 .text {
@@ -359,7 +362,7 @@ button {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 9px;
+  gap: 12px;
   width: 240px;
   height: 32px;
   flex: none;
@@ -490,7 +493,7 @@ button {
   flex-grow: 0;
 }
 
-.client_txt_bd {
+.client_txt_bl {
   width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
@@ -502,20 +505,25 @@ button {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: rgb(202, 160, 160);
 }
 
 .tag_list {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 0;
-  gap: 8px;
+  gap: 12px;
   width: 203px;
   height: 24px;
   flex: none;
   order: 2;
   flex-grow: 0;
   margin: 0;
+  background: #000;
 }
 
 .html_tag {
@@ -564,7 +572,7 @@ button {
 }
 
 .css_txt {
-  width: 65px;
+  width: 29px;
   height: 16px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -576,6 +584,7 @@ button {
   flex: none;
   order: 0;
   flex-grow: 0;
+  justify-content: center;
 }
 
 .java_tag {
@@ -616,7 +625,25 @@ button {
   flex-grow: 0;
 }
 
-.btn_text {
+.left .btn_text {
+  width: 127px;
+  height: 48px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.normal_enable_bttn {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -625,31 +652,52 @@ button {
   padding: 12px;
   gap: 10px;
   position: absolute;
+  width: 127px;
+  height: 48px;
+  left: 40px;
+  top: calc(20.3% - 30px / 2);
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.normal_enable_bttn:hover {
+  background: #6070FF;
+  color: #fff;
+}
+
+.normal_enable_bttn:active {
+  background: #2230D2;
+  color: #fff;
+}
+
+.normal_enable_btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
   width: 124px;
   height: 48px;
   left: 40px;
-  top: calc(65.3% - 30px / 2);
+  top: calc(43.8% - 50px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
+  justify-content: center;
   background: #fff;
 }
 
-.button .btn_text {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  position: absolute;
-  width: 124px;
-  height: 48px;
-  left: 40px;
-  top: calc(20.5% - 50px / 2);
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  justify-content: center;
-  background: #fff;
+.normal_enable_btn:hover {
+  background: #6070FF;
+  color: #fff;
+}
+
+.normal_enable_btn:active {
+  background: #2230D2;
+  color: #fff;
 }
 
 .br {
@@ -699,7 +747,7 @@ button {
   height: 80px;
 }
 
-.btnn .btn_text {
+.normal_enb_btn{
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -711,28 +759,20 @@ button {
   width: 124px;
   height: 48px;
   left: 40px;
-  top: calc(43.5% - 30px / 2);
+  top: calc(65.2% - 30px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
   background: #fff;
 }
 
-.bttn_sec {
-  width: 100px;
-  height: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+.normal_enb_btn:hover {
+  background: #6070FF;
+  color: #fff;
+}
+
+.normal_enb_btn:active {
+  background: #2230D2;
+  color: #fff;
 }
 
 .th {
@@ -828,7 +868,7 @@ button {
   height: 80px;
 }
 
-.btn .btn_text {
+.Normal_en_bttn {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -844,4 +884,14 @@ button {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background: #fff;
+}
+
+.Normal_en_bttn :hover {
+  background: #6070FF;
+  color: #fff;
+}
+
+.Normal_en_bttn :active {
+  background: #2230D2;
+  color: #fff;
 }
