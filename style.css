@@ -617,24 +617,6 @@ button {
   flex-grow: 0;
 }
 
-.button .btn_text  {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  position: absolute;
-  width: 124px;
-  height: 48px;
-  left: 40px;
-  top: calc(20.5% - 50px / 2);
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  justify-content: center;
-  background: #fff;
-}
-
 .btn_text {
   width: 112px;
   height: 24px;
@@ -652,6 +634,24 @@ button {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.button .btn_text {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 124px;
+  height: 48px;
+  left: 40px;
+  top: calc(20.5% - 50px / 2);
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  justify-content: center;
+  background: #fff;
 }
 
 .br {
