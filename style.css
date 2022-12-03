@@ -617,7 +617,7 @@ button {
   flex-grow: 0;
 }
 
-.button {
+.button .btn_text  {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -632,6 +632,7 @@ button {
   border: 1px solid #6070ff;
   border-radius: 8px;
   justify-content: center;
+  background: #fff;
 }
 
 .btn_text {
@@ -700,7 +701,7 @@ button {
   height: 80px;
 }
 
-.btnn {
+.btnn .btn_text {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -715,6 +716,7 @@ button {
   top: calc(43.5% - 30px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
+  background: #fff;
 }
 
 .bttn_sec {
@@ -782,7 +784,7 @@ button {
   height: 36px;
 }
 
-.butt {
+.butt .btn_text {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -797,6 +799,7 @@ button {
   top: calc(65.3% - 30px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
+  background: #fff;
 }
 
 .fr {
@@ -847,7 +850,7 @@ button {
   height: 80px;
 }
 
-.btn {
+.btn .btn_text {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -862,4 +865,5 @@ button {
   top: calc(88.7% - 50px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
+  background: #fff;
 }
