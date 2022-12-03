@@ -617,22 +617,21 @@ button {
 }
 
 .btn_text {
-  width: 112px;
-  height: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  justify-content: center;
+  box-sizing: border-box;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 124px;
+  height: 48px;
+  left: 40px;
+  top: calc(65.3% - 30px / 2);
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #fff;
 }
 
 .button .btn_text {
@@ -780,24 +779,6 @@ button {
 .title_th {
   width: 295px;
   height: 36px;
-}
-
-.btn_text {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-  gap: 10px;
-  position: absolute;
-  width: 124px;
-  height: 48px;
-  left: 40px;
-  top: calc(65.3% - 30px / 2);
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background: #fff;
 }
 
 .fr {
