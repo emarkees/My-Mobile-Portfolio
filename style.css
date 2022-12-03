@@ -292,7 +292,6 @@ button {
 #snapshot {
   width: 295px;
   height: 220px;
-  background: url(./Scr/images/Snapshoot_.png);
   background-repeat: no-repeat;
   border-radius: 8px;
   flex: none;
@@ -668,7 +667,7 @@ button {
 #snapshot_sec {
   width: 295px;
   height: 220px;
-  background: url(./Scr/images/Snapshoot_work2.png);
+  background: url();
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -751,7 +750,6 @@ button {
 #snapshot_th {
   width: 295px;
   height: 220px;
-  background: url(./Scr/images/Snapshoot_card_3.png);
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -816,7 +814,6 @@ button {
 #snapshot_fr {
   width: 295px;
   height: 220px;
-  background: url(./Scr/images/Snapshoot_card-4.png);
   background-repeat: no-repeat;
   border-radius: 8px;
   flex: none;
