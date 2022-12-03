@@ -564,7 +564,7 @@ button {
 }
 
 .css_txt {
-  width: 21px;
+  width: 65px;
   height: 16px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -782,7 +782,7 @@ button {
   height: 36px;
 }
 
-.butt .btn_text {
+.btn_text {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
