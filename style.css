@@ -862,7 +862,7 @@ button {
   position: absolute;
   width: 325px;
   height: 1125.15px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
 }
 
 .toy {
@@ -887,7 +887,7 @@ button {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   order: 0;
   flex-grow: 0;
 }
@@ -910,7 +910,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 16px;
   width: 200px;
   height: 80px;
@@ -941,7 +941,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -952,7 +952,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 200px;
   height: 45px;
   flex: none;
@@ -970,7 +970,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 200px;
   height: 45px;
   flex: none;
@@ -996,26 +996,9 @@ button {
   flex-grow: 0;
 }
 
-.Twitter_a {
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  left: 24px;
-  border-radius: 0;
-  top: 435px;
-}
-
 .fa {
-  color: #505F79;
+  color: #505f79;
   background: none;
-}
-
-.Linkedin-Icon_a {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 63px;
-  top: 435px;
 }
 
 .McList_a {
@@ -1024,15 +1007,6 @@ button {
   right: 67.2%;
   top: 438px;
   bottom: 20%;
-}
-
-.handwe_a {
-  position: absolute;
-  height: 20px;
-  width: 14.2px;
-  left: 170px;
-  top: 415px;
-  border-radius: 0;
 }
 
 .Norm-Bttn-Resume {
@@ -1060,13 +1034,12 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #396DF2;
+  color: #396df2;
   order: 3;
   flex-grow: 0;
   text-decoration: none;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
-  justify-content: center;
   background: #fff;
 }
 
@@ -1080,11 +1053,11 @@ button {
   color: #fff;
 }
 
-.Skill-List  {
+.Skill-List {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   height: 464.15px;
   flex: none;
@@ -1096,7 +1069,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   height: 320.15px;
   flex: none;
@@ -1105,7 +1078,7 @@ button {
   overflow: hidden;
 }
 
-#Frame-7  {
+#Frame-7 {
   width: 327px;
   height: 72px;
   flex: none;
@@ -1116,7 +1089,6 @@ button {
 .Frame-12 .Language-lit {
   display: none;
   overflow: hidden;
- 
 }
 
 .fa-angle-down {
@@ -1140,11 +1112,10 @@ button {
   line-height: 24px;
   align-items: center;
   display: flex;
-  align-items: center;
   color: #000;
 }
 
-.Normal-bttn-icons  {
+.Normal-bttn-icons {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1179,11 +1150,11 @@ button {
   border-radius: 4px;
 }
 
-.Language-list  {
+.Language-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 327px;
   height: 248.15px;
@@ -1239,7 +1210,7 @@ li {
   width: 303px;
   height: 66.72px;
   border-radius: 8px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -1256,9 +1227,9 @@ li {
 }
 
 ul li {
-list-style-type: none;
-
+  list-style-type: none;
 }
+
 .html-text {
   position: absolute;
   height: 24px;
@@ -1283,7 +1254,7 @@ list-style-type: none;
   border-radius: 8px;
   flex: none;
   order: 2;
-  flex-grow: 0
+  flex-grow: 0;
 }
 
 .css-img {
@@ -1310,11 +1281,27 @@ list-style-type: none;
   color: #253858;
 }
 
+.FrameTab {
+  position: absolute;
+  height: 24px;
+  left: 40px;
+  right: 78px;
+  top: calc(69% - 50px / 2);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
 .Frame-12_b .Frame-List .FrameTab {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   height: 320.15px;
   flex: none;
@@ -1326,7 +1313,7 @@ list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 327px;
   height: 248.15px;
@@ -1372,8 +1359,7 @@ list-style-type: none;
 
 #Icons_Icons-Chevron-Dwn-Larger_frm_8 {
   width: 24px;
-  height: 24px;  
-  flex: none;
+  height: 24px;
   order: 0;
   flex-grow: 0;
 }
@@ -1383,7 +1369,7 @@ list-style-type: none;
   width: 8px;
   height: 14px;
   left: 9px;
-  top: 5px;  
+  top: 5px;
 }
 
 .fa-angle-right {
@@ -1392,22 +1378,6 @@ list-style-type: none;
   right: 33.33%;
   top: 22%;
   bottom: 25%;
-}
-
-.FrameTab {
-  position: absolute;
-  height: 24px;
-  left: 40px;
-  right: 78px;
-  top: calc(69% - 50px / 2);
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000000;
 }
 
 #Frame_9 {
@@ -1437,21 +1407,21 @@ list-style-type: none;
   left: 40px;
   right: 7px;
   top: calc(75% - 24px / 2);
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .Frame-12_c {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   height: 320.15px;
   flex: none;
@@ -1461,7 +1431,7 @@ list-style-type: none;
 
 #Icons_Icon-Chevron-Down-Larger_frm_9 {
   width: 24px;
-  height: 24px; 
+  height: 24px;
   flex: none;
   order: 0;
   flex-grow: 0;
