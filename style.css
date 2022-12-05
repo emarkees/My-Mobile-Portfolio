@@ -865,7 +865,7 @@ button {
   left: calc(50% - 375px / 2);
 }
 
-.toy {
+.top-bg {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -894,7 +894,7 @@ button {
 
 .pry-abt-gp {
   width: 329px;
-  height: 145px;
+  height: 140px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -917,6 +917,7 @@ button {
   flex: none;
   order: 2;
   flex-grow: 0;
+  margin-top: 0;
 }
 
 .SupportingText_abt {
@@ -934,7 +935,7 @@ button {
 }
 
 .letConnect_icon {
-  width: 120px;
+  width: 129px;
   height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -979,8 +980,10 @@ button {
   justify-items: center;
 }
 
-.social-media-icon_2 {
+.social-media-icon_tl {
   margin: 0;
+  height: 25px;
+  width: 200px;
 }
 
 .Bttn-gitHub {
@@ -1041,9 +1044,10 @@ button {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background: #fff;
+  cursor: pointer;
 }
 
-.getMyResume :hover {
+.getMyResume:hover {
   background: #6070ff;
   color: #fff;
 }
@@ -1099,12 +1103,7 @@ button {
   bottom: 37.5%;
 }
 
-.langTab {
-  position: absolute;
-  height: 24px;
-  left: 40px;
-  right: 78px;
-  top: calc(43.9% - 50px / 2);
+.lg-bd-tb {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1115,7 +1114,15 @@ button {
   color: #000;
 }
 
-.Normal-bttn-icons {
+.langTab {
+  position: absolute;
+  height: 24px;
+  left: 40px;
+  right: 78px;
+  top: calc(43.9% - 50px / 2);
+}
+
+.bt-icns {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1124,6 +1131,9 @@ button {
   width: 40px;
   height: 40px;
   right: 40px;
+}
+
+.Normal-bttn-icons {
   top: calc(43% - 50px / 2);
   border-radius: 8px;
   justify-items: center;
@@ -1190,20 +1200,22 @@ li {
   top: calc(50% - 65.5px / 2 - 0.36px);
 }
 
-.Java-txt {
-  position: absolute;
-  height: 24px;
-  left: 115px;
-  right: 50px;
-  top: calc(48.5% - 1px / 2 - 0.36px);
+.txt-lang {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  display: flex;
   align-items: center;
   color: #253858;
+}
+
+.Java-txt {
+  position: absolute;
+  height: 24px;
+  left: 115px;
+  right: 50px;
+  top: calc(47.5% - 1px / 2 - 0.36px);
 }
 
 #Frame-10 {
@@ -1235,15 +1247,7 @@ ul li {
   height: 24px;
   left: 115px;
   right: 50px;
-  top: calc(56% - 50px / 2 - 0.36px);
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
+  top: calc(54.7% - 50px / 2 - 0.36px);
 }
 
 #Frame-11 {
@@ -1270,31 +1274,16 @@ ul li {
   height: 24px;
   left: 115px;
   right: 45px;
-  top: calc(61% - 30px / 2 - 0.36px);
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
+  top: calc(59.5% - 30px / 2 - 0.36px);
 }
 
 .FrameTab {
   position: absolute;
+  max-width: fit-content;
   height: 24px;
   left: 40px;
-  right: 78px;
+  right: 7px;
   top: calc(69% - 50px / 2);
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
 }
 
 .Frame-12_b .Frame-List .FrameTab {
@@ -1336,16 +1325,9 @@ ul li {
   flex-grow: 0;
 }
 
-.Normal-bttn-icons_frm_8 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 40px;
-  top: calc(68% - 50px / 2);
+.Nor-bttn-ic_se {
+  right: 51px;
+  top: calc(68.3% - 50px / 2);
   border-radius: 8px;
 }
 
@@ -1388,16 +1370,8 @@ ul li {
   flex-grow: 0;
 }
 
-.Normal-bttn-icons_frm_9 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 30px;
-  top: calc(75.9% - 50px / 2);
+.Nor-bttn-ic_th {
+  top: calc(76% - 50px / 2);
   border-radius: 8px;
 }
 
@@ -1407,14 +1381,6 @@ ul li {
   left: 40px;
   right: 7px;
   top: calc(75% - 24px / 2);
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
 }
 
 .Frame-12_c {
@@ -1498,29 +1464,29 @@ ul li {
   margin-top: 11px;
 }
 
-.Twitter_a {
+.fa-stac {
   position: absolute;
   height: 20px;
   width: 20px;
-  left: 145px;
+  left: 159px;
   border-radius: 0;
-  top: 435px;
+  top: 437px;
 }
 
-.gitHub_a {
+.gitHub {
   position: absolute;
   left: 6%;
-  right: 60.07%;
-  top: 435px;
+  right: 93%;
+  top: 447px;
   bottom: 100.87%;
 }
 
-.Linkedin-Icon_a {
+.fa-stack-1x {
   position: absolute;
   width: 20px;
   height: 20px;
   left: 63px;
-  top: 435px;
+  top: -29px;
 }
 
 .McLit_a {
@@ -1531,11 +1497,11 @@ ul li {
   bottom: 19.21%;
 }
 
-.handwe_a {
+.angellist {
   position: absolute;
   height: 20px;
   width: 14.2px;
-  left: 110px;
+  left: 119px;
   top: 435px;
   border-radius: 0;
 }
@@ -1543,4 +1509,22 @@ ul li {
 .Normal-Button-Tertiary-Enabled #myLink ul li {
   display: none;
   text-decoration: none;
+}
+
+.hr-frm-sl {
+  position: absolute;
+  height: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: calc(73% - 50px / 2);
+}
+
+.hr-frm-tl {
+  position: absolute;
+  height: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: calc(80% - 50px / 2);
 }
