@@ -3,7 +3,7 @@ body {
   font-style: normal;
 }
 
-main {
+.container {
   position: relative;
   width: 375px;
   height: 5315px;
@@ -133,7 +133,7 @@ ul {
   position: absolute;
   left: 32.13%;
   right: 57.07%;
-  top: 57.2%;
+  top: 475.9px;
   bottom: 18.87%;
   color: #505f79;
 }
@@ -142,7 +142,7 @@ ul {
   position: absolute;
   left: 23.47%;
   right: 67.2%;
-  top: 55.78%;
+  top: 47px;
   bottom: 18.87%;
   color: #505f79;
 }
@@ -162,7 +162,7 @@ ul {
   height: 718px;
   left: 0;
   top: 0;
-  background: #fff;
+  background: rgb(211, 40, 40);
   border-radius: 0 0 0 70px;
 }
 
@@ -1729,3 +1729,4 @@ ul li {
   text-align: center;
   letter-spacing: 0.03em;
 }
+

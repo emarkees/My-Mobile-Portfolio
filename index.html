@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 	<html lan="en" xml:lang="en">
-		<meta charset="UTF-8">
+		<head>
+    <meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<head>
-			<meta charset="UTF-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" type="text/css" href="style-original.css">
+      <link rel="stylesheet" type="text/css" href="responsive.css">
 			<title>My potfolio</title>
 			<style>
 				@import url('http://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
@@ -18,7 +15,6 @@
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
 			<link href="svg.link" type="text/css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +25,7 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css" integrity="sha512-k2UAKyvfA7Xd/6FrOv5SG4Qr9h4p2oaeshXF99WO3zIpCsgTJ3YZELDK0gHdlJE5ls+Mbd5HL50b458z3meB/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		</head>
 		<body>
-			<main>
+			<main class="container">
 				<header class="header-background-mobile">
           <nav id="AppBar-Compact-Dark-iOS">
             <div id="Toolbar-Dark-Compact">
@@ -42,6 +38,12 @@
             <div class="Logo-Placeholder">
               <a href="#" class="MyLogo">My Logo</a>
             </div>
+            <div class="navItem">
+              <ul>
+                <li><a href="#Portfolio" class="navPortfolio portfolio">Portfolio</a></li>
+                <li><a href="#About" class="navAbout about">About</a></li>
+                <li><a href="#Contact" class="navContact contact">Contact</a></li>
+              </ul>
             </div>
           </nav>
           <span class="rectangle"></span>
