@@ -1485,16 +1485,16 @@ ul li {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 63px;
+  left: 10%;
   top: -29px;
 }
 
-.McLit_a {
+.med-stack {
   position: absolute;
-  left: 50%;
+  left: 22%;
   right: 60.2%;
-  top: 439px;
-  bottom: 19.21%;
+  top: -400px;
+  bottom: 18.9%;
 }
 
 .angellist {
