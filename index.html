@@ -293,21 +293,32 @@
       </section>
       <section class="con-bg-ls">
         <div class="contact me">
-          
         </div>
       </section>
-      <section class="contact">
-      <header>
-        <h2>Contact me</h2>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
-        </p>
-      </header>
-      <form action="#" method="post">
-        <input type="text" placeholder="Enter Full Name" id="user-name">
-        <input type="email" name="" placeholder="Enter e-mail" id="user-e-mail">
-        <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
-        <button>Get in Touch</button>
-      </form>
-    </section>
-	</body>
+      <section class="contact con-fnt">
+        <div class="cont_frm_shapes-mob"></div>
+          <header class="con-bg-ls">
+          <h1 class="con-txt-hd">Contact me</h1>
+            <p class="con-txt-bd">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+          </p>
+          </header>
+          <form>
+            <ul>
+              <li id="usr-txtarea">
+                <input type="text" name="name" placeholder="Enter Full Name" maxlength="15" class="usr-mail-txt usr-cont frm-lb" required="required" />
+              </li>
+              <li id="mail">
+                <input type="email" name="e-mail" placeholder="Enter e-mail" class="usr-mail-txt mail-container frm-lb" required="required" />
+              </li>
+              <li id="text-area">
+                <textarea name="text-area" placeholder="Write your message here" cols="30" rows="10" class="txt-area txt-cont-out" required="required"></textarea>
+              </li>
+             <li class="action">
+              <button type="submit" class="btn-sz-sub sub_text">Get In Touch</button>
+             </li>
+            </ul>
+             
+          </form>
+      </section>
+	  </body>
 	</html>
