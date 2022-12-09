@@ -162,7 +162,7 @@ ul {
   height: 718px;
   left: 0;
   top: 0;
-background: #fff;
+  background: #fff;
   border-radius: 0 0 0 70px;
 }
 
@@ -1731,51 +1731,48 @@ ul li {
 }
 
 @media screen and (min-width: 850px) {
+  * {
+    margin: 0;
+  }
+
   body {
     position: relative;
     box-sizing: border-box;
-    width:1350px;
-    height: 5125px;
+    width: 1350px;
+    height: 125px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     background: #4e45d1;
     justify-content: center;
     align-content: center;
- 
+    margin: 0;
   }
 
   .container {
     position: relative;
     box-sizing: border-box;
     width: 1350px;
-    height: 5125px;    
+    height: 5125px;
   }
 
   .header-background-mobile {
     position: absolute;
     width: 1350px;
     height: 891.7px;
-    left: 0px;
-    top: 0px;
-    align-items: center;
-    justify-items: center;
     justify-content: center;
     background: rgb(136, 187, 17);
     border-radius: 0 0 0 70px;
-
   }
 
   #AppBar-Compact-Dark-iOS {
     position: fixed;
     width: 100%;
     height: 72px;
-    left: 0px;
+    left: 0;
     top: 0;
-    align-items: center;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background: rgb(160, 85, 144);
     z-index: 1;
   }
 
@@ -1792,7 +1789,6 @@ ul li {
     height: 40px;
     left: 143px;
     top: calc(50% - 40px / 2);
-    background: rgb(216, 129, 129);
   }
 
   .MyLogo {
@@ -1812,7 +1808,7 @@ ul li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 8px;
     position: absolute;
     width: 259px;
@@ -1832,7 +1828,6 @@ ul li {
     align-items: center;
     padding: 10px 12px;
     gap: 10px;
-    
   }
 
   .navPortfolio {
@@ -1842,7 +1837,7 @@ ul li {
     order: 0;
     background: #000;
     justify-content: center;
-    text-decoration: none;   
+    text-decoration: none;
   }
 
   .txt-font {
@@ -1876,7 +1871,6 @@ ul li {
     background: url(./Scr/images/Header\ bg.png);
     background-size: 1337.9px;
     background-repeat: no-repeat;
-
   }
 
   .Headlines {
@@ -1884,7 +1878,7 @@ ul li {
     flex-direction: column;
     box-sizing: border-box;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     background: rgb(167, 240, 218);
     position: absolute;
@@ -1897,7 +1891,7 @@ ul li {
   .pry-Txt-Headlin {
     width: 920px;
     height: 122px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -1909,11 +1903,11 @@ ul li {
     order: 0;
     flex-grow: 0;
   }
-  
+
   .pry-Txt-Body {
     width: 920px;
     height: 98px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1936,7 +1930,7 @@ ul li {
     position: absolute;
     width: 1330px;
     height: 2694px;
-    left: 0px;
+    left: 0;
     top: 899.99px;
     justify-content: center;
     align-content: center;
@@ -1966,7 +1960,7 @@ ul li {
     order: 2;
     flex-grow: 0;
     background-size: 52px;
-    transition: transform 2s;
+    transition: transform 1s;
   }
 
   .left {
@@ -1974,11 +1968,11 @@ ul li {
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
-    gap: 24px;    
+    gap: 24px;
   }
 
   .block_bl {
-    position: absolute; 
+    position: absolute;
     width: 519px;
     height: 412.9px;
     left: 659.9px;
@@ -1989,7 +1983,7 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
   }
 
@@ -2003,7 +1997,7 @@ ul li {
   }
 
   .project {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -2013,7 +2007,7 @@ ul li {
   .title {
     width: 496px;
     height: 46px;
-    color: #091E42;
+    color: #091e42;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2042,7 +2036,7 @@ ul li {
     flex: none;
     order: 0;
     flex-grow: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -2053,7 +2047,7 @@ ul li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0px;
+    padding: 8px 0;
     width: 120px;
     height: 40px;
     flex: none;
@@ -2064,22 +2058,22 @@ ul li {
   .client_role_text {
     width: 120px;
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     flex: none;
     order: 0;
-    flex-grow:0;
+    flex-grow: 0;
   }
 
   .client_tag_year {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0px;
+    padding: 8px 0;
     width: 38px;
     height: 40px;
     flex: none;
@@ -2090,12 +2084,12 @@ ul li {
   .client_yr_text {
     width: 38px;
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2104,7 +2098,7 @@ ul li {
   .client_txt_bl {
     width: 496px;
     height: 50px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -2119,12 +2113,74 @@ ul li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 8px;
+    padding: 0;
+    gap: 6px;
     width: 203px;
     height: 24px;
+    left: 50px;
     flex: none;
     order: 2;
+    flex-grow: 0;
+    background: rgb(0, 255, 21);
+  }
+
+  .html_txt {
+    width: 29px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .css_txt {
+    width: 21px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #action {
+    width: 496px;
+    height: 153px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+
+  .btn-sz-bx {
+    top: calc(66.5% - 50px / 2);
+  }
+
+  .btn_text {
+    width: 100px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    flex: none;
+    order: 0;
     flex-grow: 0;
   }
 }
