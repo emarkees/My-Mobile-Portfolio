@@ -1605,28 +1605,21 @@ hr {
   background-repeat: no-repeat;
 }
 
-.frm-lb {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
+#name-text-area {
+  width: 347px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
 }
 
-.usr-cont {
-  position: absolute;
-  left: 50px;
-  right: 12px;
-  top: 90px;
-  bottom: 0;
-  height: 35px;
-  width: 417px;
-  padding: 15px;
-}
-
-.usr-mail-txt {
+.name-text-input {
   position: absolute;
   height: 18px;
-  left: 80px;
+  left: 20px;
   right: 38px;
+  top: calc(44% - 18px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1637,20 +1630,64 @@ hr {
   color: #172b4d;
 }
 
-#name-tet-area {
+#name-basic-container {
   position: absolute;
-  left: 20%;
-  right: 2%;
-  top: 42.26%;
-  bottom: 6.86%;
+  height: 48px;
+  left: -150px;
+  width: 345px;
+  right: 0;
+  top: calc(50% - 30px / 2);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
 }
 
-#mail-cont {
+.name-container {
   position: absolute;
-  left: 20%;
-  right: 2%;
-  top: 58.26%;
-  bottom: 6.86%;
+  left: 35px;
+  right: 0;
+  top: 13px;
+  width: 259.9px;
+  bottom: 0;
+  border: 1px solid #cfd8dc;
+  border: none;
+}
+
+#mail-text-area {
+  width: 347px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.mail-text-input {
+  position: absolute;
+  height: 20px;
+  left: 35px;
+  right: 40px;
+  top: calc(50% - 25px / 2);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #172b4d;
+}
+
+#mail-basic-container {
+  position: absolute;
+  height: 48px;
+  left: -150px;
+  width: 345px;
+  right: 0;
+  top: calc(58% - 22px / 2);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
 }
 
 .mail-container {
@@ -1689,12 +1726,12 @@ hr {
 
 #text-area {
   position: absolute;
-  left: 177px;
+  left: -150px;
   right: 12px;
-  top: 395px;
+  top: 460px;
   bottom: 0;
   height: 180px;
-  width: 330px;
+  width: 350px;
   align-items: center;
   justify-content: center;
   background: #fff;
@@ -1730,8 +1767,8 @@ hr {
   position: absolute;
   width: 140px;
   height: 48px;
-  left: 24px;
-  top: 685px;
+  left: -150px;
+  top: 665px;
   border-radius: 8px;
 }
 
@@ -2911,7 +2948,7 @@ hr {
     left: 0;
     right: 0;
     top: 40px;
-    background: url(./Scr/images/contact_form_shapes-mobile\ \(2\) .png);
+    background: url(./Scr/images/contact_form_shapes-web.png);
   }
 
   .contact-left-text {
@@ -3087,12 +3124,18 @@ hr {
   }
 
   #text-area {
-    width: 447px;
-    height: 170px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    position: absolute;
+    left: 175px;
+    right: 12px;
     top: calc(58% - 10px / 2);
+    bottom: 0;
+    height: 170px;
+    width: 447px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
   }
 
   .btn-sz-sub {
