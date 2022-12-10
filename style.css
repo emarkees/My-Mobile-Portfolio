@@ -1599,7 +1599,7 @@ hr {
   position: absolute;
   width: 265px;
   height: 709.17px;
-  left: 153px;
+  left: 159.9px;
   top: 20px;
   background: url(./Scr/images/contact_form_shapes-mobile.png);
   background-repeat: no-repeat;
@@ -1750,7 +1750,7 @@ hr {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 768px) {
   * {
     margin: 0;
   }
