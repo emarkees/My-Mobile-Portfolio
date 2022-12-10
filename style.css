@@ -262,7 +262,6 @@ button {
   order: 0;
   flex-grow: 0;
   text-decoration: none;
-  transform: rotate(180deg);
 }
 
 .work {
