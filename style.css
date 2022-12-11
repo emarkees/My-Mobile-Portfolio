@@ -1822,11 +1822,12 @@ hr {
 
   .header-background-mobile {
     position: absolute;
-    width: 1450px;
+    width: 2450px;
     height: 891.7px;
     justify-content: center;
     background: #fff;
     border-radius: 0 0 0 150px;
+    overflow: hidden;
   }
 
   #AppBar-Compact-Dark-iOS {
@@ -2460,7 +2461,7 @@ hr {
 
   .base-about-my-self {
     position: absolute;
-    width: 1350px;
+    width: 1490px;
     height: 824px;
     left: 0;
     top: 3440px;
@@ -2914,7 +2915,7 @@ hr {
 
   .contact-background {
     position: absolute;
-    width: 1350px;
+    width: 1490px;
     height: 779px;
     left: 0;
     top: 4259px;
