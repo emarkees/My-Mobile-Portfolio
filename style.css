@@ -2,13 +2,14 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   overflow-x: hidden;
+  background: f7f7f7;
 }
 
-.container {
+.contaner {
   position: relative;
   width: 375px;
   height: 5315px;
-  background: #f7f7f9;
+  background: #f7f7f7;
 }
 
 .rectangle {
@@ -1602,8 +1603,12 @@ hr {
   height: 709.17px;
   left: 159.9px;
   top: 20px;
-  background: url(./Scr/images/contact_form_shapes-mobile.png);
+  background: url(./Scr/images/contact_form_shapes-web.png);
   background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: 20px;
+  background-position-x: -646px;
+  background-position-y: 9px;
 }
 
 #name-text-area {
@@ -1796,11 +1801,11 @@ hr {
   body {
     position: relative;
     box-sizing: border-box;
-    width: 1330px;
-    height: 125px;
+    width: auto;
+    height: 2650px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    background: #f4f5f7;
+    background: #f7f7f7;
     justify-content: center;
     align-content: center;
     margin: 0;
@@ -1810,13 +1815,15 @@ hr {
   .container {
     position: relative;
     box-sizing: border-box;
-    width: 1350px;
+    width: 1490px;
     height: 5000px;
+    overflow-x: hidden;
+
   }
 
   .header-background-mobile {
     position: absolute;
-    width: 1350px;
+    width: 1450px;
     height: 891.7px;
     justify-content: center;
     background: #fff;
@@ -1825,7 +1832,7 @@ hr {
 
   #AppBar-Compact-Dark-iOS {
     position: fixed;
-    width: 1270px;
+    width: 1490px;
     height: 72px;
     left: 0;
     top: 0;
