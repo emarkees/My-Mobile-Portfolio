@@ -291,29 +291,32 @@
           </div>
         </article>
       </section>
-      <section class="contact con-fnt">
+      <section class="contact-background">
         <div class="cont_frm_shapes-mob"></div>
-          <header class="con-bg-ls">
-          <h1 class="con-txt-hd">Contact me</h1>
-            <p class="con-txt-bd">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
-          </p>
-          </header>
-          <form action="https://formspree.io/f/xnqrezql" method="post">
-            <ul>
-              <li id="usr-txtarea">
-                <input type="text" name="name" placeholder="Enter Full Name" maxlength="30" class="usr-mail-txt usr-cont frm-lb" required />
+          <div class="contact-left-text">
+            <div class="contact-area">
+              <h1 class="contact-head-me">Contact me</h1>
+              <p class="contact-text-body">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+              </p>
+            </div>
+            <form action="https://formspree.io/f/xnqrezql" method="post" >
+              <ul class="form">
+                <li id="name-text-area">
+                  <div id="name-basic-container"><input type="text" name="name" placeholder="Enter Full Name" maxlength="30" class="  name-text-input" required />
+                  </div>
+                </li>
+                <li id="mail-text-area">
+                  <div id="mail-basic-container"><input type="email" name="e-mail" placeholder="Enter e-mail" class="mail-text-input " required /></div>
+                </li>
+                <li id="text-area">
+                  <textarea name="text-area" placeholder="Write your message here" cols="30" rows="10" maxlength="500" class="txt-area txt-cont-out" required></textarea>
+                </li>
+              <li class="action">
+                <button type="submit" class="btn-sz-sub sub_text">Get In Touch</button>
               </li>
-              <li id="mail">
-                <input type="email" name="e-mail" placeholder="Enter e-mail" class="usr-mail-txt mail-container frm-lb" required />
-              </li>
-              <li id="text-area">
-                <textarea name="text-area" placeholder="Write your message here" cols="30" rows="10" maxlength="500" class="txt-area txt-cont-out" required></textarea>
-              </li>
-             <li class="action">
-              <button type="submit" class="btn-sz-sub sub_text">Get In Touch</button>
-             </li>
-            </ul>
-          </form>
+              </ul>
+            </form>
+          </div>
       </section>
 	</body>
 	</html>
