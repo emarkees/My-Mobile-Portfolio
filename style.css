@@ -1464,11 +1464,11 @@ ul li {
   margin-top: 11px;
 }
 
-.fa-stac {
+.twitter {
   position: absolute;
   height: 20px;
-  width: 20px;
-  left: 159px;
+  width: 0;
+  left: 140px;
   border-radius: 0;
   top: 437px;
 }
@@ -1479,13 +1479,14 @@ ul li {
   right: 93%;
   top: 447px;
   bottom: 100.87%;
+  width: 0;
 }
 
-.fa-stack-1x {
+.linkedin {
   position: absolute;
-  width: 20px;
+  width: 0;
   height: 20px;
-  left: 10%;
+  left: -10px;
   top: -29px;
 }
 
@@ -1495,13 +1496,14 @@ ul li {
   right: 60.2%;
   top: -400px;
   bottom: 18.9%;
+  width: 0;
 }
 
 .angellist {
   position: absolute;
   height: 20px;
-  width: 14.2px;
-  left: 119px;
+  width: 0;
+  left: 110px;
   top: 435px;
   border-radius: 0;
 }
@@ -1529,16 +1531,16 @@ ul li {
   top: calc(80% - 50px / 2);
 }
 
-.contact {
+.contact-background {
   position: absolute;
   width: 375px;
   height: 779px;
-  left: 8px;
-  top: 4785px;
+  left: 0;
+  top: 4729px;
   background: #6070ff;
-  border-radius: 80px 0 0 0;
-  align-items: center;
+  justify-content: center;
   justify-items: center;
+  border-radius: 90px 0 0 0;
 }
 
 .con-fnt {
@@ -1547,27 +1549,28 @@ ul li {
   justify-content: center;
 }
 
-.con-txt-hd {
+.contact-head-me {
   position: absolute;
-  width: 801px;
+  width: 375px;
   height: 56px;
-  left: 70px;
+  left: 9px;
   top: 70px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
 }
 
-.con-txt-bd {
+.contact-text-body {
   position: absolute;
   width: 327px;
   height: 102px;
-  left: 24px;
-  top: 152px;
+  left: 20px;
+  top: 150px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -1577,36 +1580,40 @@ ul li {
 
 .cont_frm_shapes-mob {
   position: absolute;
-  width: 265px;
+  width: 385px;
   height: 709.17px;
   left: 153px;
   top: 20px;
-  background: url(./Scr/images/contact_form_shapes-mobile.png);
   background-repeat: no-repeat;
+  background-image: url(./Scr/images/contact_form_shapes-mobile.png);
 }
 
-.frm-lb {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-}
-
-.usr-cont {
+.form {
   position: absolute;
-  left: 20px;
-  right: 12px;
-  top: 0;
-  bottom: 0;
-  height: 35px;
-  width: 300px;
-  padding: 15px;
+  width: 70%;
+  height: 50%;
+  left: 9.9%;
+  right: 6.4%;
+  top: 39.73%;
+  bottom: 2.13%;
+  justify-items: center;
 }
 
-.usr-mail-txt {
+#name-text-area {
+  width: 347px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+}
+
+.name-text-input {
   position: absolute;
   height: 18px;
-  left: 18px;
+  left: 30px;
   right: 38px;
+  top: calc(44% - 18px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1615,32 +1622,77 @@ ul li {
   display: flex;
   align-items: center;
   color: #172b4d;
+  border: none;
 }
 
-#usr-txtarea {
+#name-basic-container {
   position: absolute;
-  left: 0.5%;
-  right: 2%;
-  top: 45.26%;
-  bottom: 6.86%;
+  height: 48px;
+  left: 9px;
+  width: 95%;
+  right: 0;
+  top: calc(60% - 430px / 2);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
 }
 
-#mail {
+.name-container {
   position: absolute;
-  left: 0.5%;
-  right: 2%;
-  top: 54%;
-  bottom: 5.6%;
+  left: 35px;
+  right: 0;
+  top: 13px;
+  width: 417.9px;
+  bottom: 0;
+  border: 1px solid #cfd8dc;
+  border: none;
+}
+
+#mail-text-area {
+  width: 347px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.mail-text-input {
+  position: absolute;
+  height: 20px;
+  left: 35px;
+  right: 40px;
+  top: calc(50% - 25px / 2);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #172b4d;
+}
+
+#mail-basic-container {
+  position: absolute;
+  height: 48px;
+  left: 9px;
+  width: 95%;
+  right: 0;
+  top: calc(58% - 295px / 2);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
 }
 
 .mail-container {
   position: absolute;
-  left: 20px;
+  left: 35px;
   right: 12px;
-  top: -5px;
+  top: 0;
   bottom: 0;
-  height: 17px;
-  width: 300px;
+  height: 35px;
+  width: 417px;
   padding: 15px;
 }
 
@@ -1669,12 +1721,12 @@ ul li {
 
 #text-area {
   position: absolute;
-  left: 20px;
+  left: 9px;
   right: 12px;
-  top: 483px;
+  top: 140px;
   bottom: 0;
   height: 180px;
-  width: 330px;
+  width: 95%;
   align-items: center;
   justify-content: center;
   background: #fff;
@@ -1710,8 +1762,8 @@ ul li {
   position: absolute;
   width: 140px;
   height: 48px;
-  left: 24px;
-  top: 685px;
+  left: 9px;
+  top: 355px;
   border-radius: 8px;
 }
 
