@@ -13,6 +13,7 @@
 				@import url('http://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 			</style>
 			<link rel="stylesheet" href="style.css" type="text/css">
+            <link rel="stylesheet" href="styleres.css" type="text/css">
 			<script  type="text/javascript" scr="script.js"></script>
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,50 +32,54 @@
 		<body>
 			<main>
 				<header class="header-background-mobile">
-          <nav id="AppBar-Compact-Dark-iOS">
+          <nav class="AppBar-Compact-Dark-iOS">
             <div id="Toolbar-Dark-Compact">
               <div class="Normal-Buttn-Tert-Enabled">
-                <button id="NavIcon-Menu" >
-                  <div onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></div>
-                </button>
+                <button id="NavIcon-Menu" ><div onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></div></button>
               </div>
             </div>
             <div class="Logo-Placeholder">
               <a href="#" class="MyLogo">My Logo</a>
             </div>
-            </div>
+            <ul class="navItem">
+              <li class="portfolio-frame"><a href="#" class="nav_portfolio navfont">Portfolio</a></li>
+              <li class="about-frame"><a href="#"  class="nav_about navfont">About</a></li>
+              <li class="contact-frame"><a href="#"  class="nav_contact navfont">Contact</a></li>
+            </ul>
           </nav>
           <span class="rectangle"></span>
         </header>
 				<section class="Headlines">
-					<div class="pry-Txt-Headlin">
-						<h1>I’m Adeyemi
-							Glad to see you!</h1>
-					</div>
-						<p class="pry-Txt-Body">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-					<div class="social">
-						<div class="Supportng-Text">
-							<h2 class="connect">LET'S CONNECT</h2>
-						</div>
-					</div>
-					<div class="social-media-icons">
-						<ul>
-							<li><a href="twitter.com/McEmarkees.com"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
-							<li><a href="Linkedin.com/emarkees.com"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
-							<li><a href="github.com/emarkees.com"><i class="fa-brands fa-github fa-xl"></i></a></li>
-							<li><a href="github.com/emarkees.com"><i class="fab fa-medium fa-xl"></i></a></li>
-							<li><a href="anglrlist.com"><i class="fa-brands fa-angellist fa-xl"></i></a></li>
-						</ul>
-					</div>
+          <div class="text-headers">
+            <div class="pry-Txt-Headlin">
+              <h1>I’m Adeyemi<br>
+                Glad to see you!</h1>
+            </div>
+              <p class="pry-Txt-Body">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <div class="social">
+              <div class="Supportng-Text">
+                <h2 class="connect">LET'S CONNECT</h2>
+              </div>
+            </div>
+            <div class="social-media-icons">
+              <ul>
+                <li><a href="twitter.com/McEmarkees.com"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+                <li><a href="Linkedin.com/emarkees.com"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+                <li><a href="github.com/emarkees.com"><i class="fa-brands fa-github fa-xl"></i></a></li>
+                <li><a href="github.com/emarkees.com"><i class="fab fa-medium fa-xl"></i></a></li>
+                <li><a href="anglrlist.com"><i class="fa-brands fa-angellist fa-xl"></i></a></li>
+              </ul>
+            </div>
+          </div>
 				</section>
 				<span class="header-shape"></span>
 			</main>
       <section class="work">
-        <div class="cardWork sec">
-          <img id="snapshot" alt="snapshort img" src="./Scr/images/Snapshoot_.png">
-          <div class="left block_bl">
-            <div class="primary text">
-              <h1 class="project title">Tonic</h1>
+        <div class="cardWork avocado">
+          <img id="snapshot_avocado" alt="snapshort img" src="./Scr/images/avocado.png">
+          <div class="left_avocado_block">
+            <div class="primary_avocado_text">
+              <h1 class="avocado_title">Tonic</h1>
               <ul class="frame">
                 <li class="client_tag_list"><h2 class="client_canopy">CANOPY</h2></li>
                 <span class="counter"></span>
@@ -83,24 +88,24 @@
                 <li class="client_tag_year"><h2 class="client_yr_text">2015</h2></li>
               </ul>
             </div>
-              <p class="client_txt_bl">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <p class="client_txt_avocado">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="tag_list">
               <li class="html_tag"><h3 class="html_txt">html</h3></li>
               <li class="css_tag"><h3 class="css_txt">css</h3></li>
               <li class="java_tag"><h3 class="java_txt">javaScript</h3></li>
             </ul>
             <div id="action">
-              <button type="button" class="btn-sz-bx normal_enable_bttn btn_text">See Project</button>           
+              <button type="button" class="btn-sz-bx normal_enable_avocado {
+                btn_text">See Project</button>           
             </div>
           </div>
         </div>
-        <div class="cardWork br">
-          <img id="snapshot_sec" alt="portfolio img" src="./Scr/images/Snapshoot_work2.png">
-          <div class="left Block_sec">
-            <div class="primary text_sec">
-              <h1 class="project title_sec">Multi-Post <br>
-                Stories</h1>
-                <ul class="frame">
+        <div class="cardWork professional">
+          <img id="snapshot_professional" alt="portfolio img" src="./Scr/images/professional.png" >
+          <div class="left_block_professional">
+            <div class="primary_text_professional">
+              <h1 class="title_professional">Multi-Post Stories</h1>
+                <ul class="frame_professional">
                   <li class="client_tag_list"><h2 class="client_canopy">CANOPY</h2></li>
                   <span class="counter"></span>
                   <li class="client_tag_role"><h2 class="client_role_text">Back End Dev</h2></li>
@@ -108,23 +113,23 @@
                   <li class="client_tag_year"><h2 class="client_yr_text">2015</h2></li>
                 </ul>
             </div>
-            <p class="client_txt_bl">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="tag_list">
+            <p class="client_txt_professional">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <ul class="tag_list_professional">
               <li class="html_tag"><h3 class="html_txt">html</h3></li>
               <li class="css_tag"><h3 class="css_txt">css</h3></li>
               <li class="java_tag"><h3 class="java_txt">javaScript</h3></li>
             </ul>
             <div id="action">
-              <button type="button" class="btn-sz-bx normal_enable_btn btn_text">See Project</button>           
+              <button type="button" class="btn-sz-bx Normal_enable_professional btn_text" >See Project</button>              
             </div>
           </div>
         </div>
-        <div class="cardWork th">
-          <img id="snapshot_sec" alt="portfolio img" src="./Scr/images/Snapshoot_card_3.png">
-          <div class="left block_th">
-            <div class="primary text_th">
-              <h1 class=" project title_th">Tonic</h1>
-              <ul class="frame">
+        <div class="cardWork available">
+          <img id="snapshot_available" alt="available img" src="./Scr/images/Avialable.png">
+          <div class="left_block_available">
+            <div class="primary_text_available">
+              <h1 class="title_available">Tonic</h1>
+              <ul class="frame_available">
                 <li class="client_tag_list"><h2 class="client_canopy">CANOPY</h2></li>
                 <span class="counter"></span>
                 <li class="client_tag_role"><h2 class="client_role_text">Back End Dev</h2></li>
@@ -132,25 +137,24 @@
                 <li class="client_tag_year"><h2 class="client_yr_text">2015</h2></li>
               </ul>
             </div>
-              <p class="client_txt_bl">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <p class="client_txt_available">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="tag_list">
               <li class="html_tag"><h3 class="html_txt">html</h3></li>
               <li class="css_tag"><h3 class="css_txt">css</h3></li>
               <li class="java_tag"><h3 class="java_txt">javaScript</h3></li>
             </ul>
             <div id="action">
-              <button type="button" class="btn-sz-bx normal_enb_btn btn_text">See Project</button>           
+              <button type="button" class="btn-sz-bx normal_enb_available btn_text">See Project</button>           
             </div>
             </div>
-          </div>
         </div>
-        <div class="cardWork fr">
-          <img id="snapshot_fr" alt="portfolio img" src="./Scr/images/Snapshoot_card-4.png" >
-          <div class="left block_fr">
-            <div class="primary text_fr">
-              <h1 class="project title_fr">Multi-Post <br>
+        <div class="cardWork nature">
+          <img id="snapshot_nature" alt="portfolio img" src="./Scr/images/nature.png" >
+          <div class="left_block_nature">
+            <div class="primary_text_nature">
+              <h1 class="title_nature">Multi-Post
                 Stories</h1>
-                <ul class="frame">
+                <ul class="frame_nature">
                   <li class="client_tag_list"><h2 class="client_canopy">CANOPY</h2></li>
                   <span class="counter"></span>
                   <li class="client_tag_role"><h2 class="client_role_text">Back End Dev</h2></li>
@@ -158,14 +162,14 @@
                   <li class="client_tag_year"><h2 class="client_yr_text">2015</h2></li>
                 </ul>
             </div>
-              <p class="client_txt_bl">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="client_txt_nature">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="tag_list">
               <li class="html_tag"><h3 class="html_txt">html</h3></li>
               <li class="css_tag"><h3 class="css_txt">css</h3></li>
               <li class="java_tag"><h3 class="java_txt">javaScript</h3></li>
             </ul>
             <div id="action">
-              <button type="button" class="btn-sz-bx Normal_en_bttn btn_text" >See Project</button>              
+              <button type="button" class="btn-sz-bx Normal_enable_nature btn_text" >See Project</button>              
             </div>
           </div>
         </div>
@@ -193,7 +197,7 @@
                           <a class="linkedin" href="#Linkined.com/McEmarkees" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
                         </li>
                         <li>
-                          <a class="med-stack" href="#Mclist.com/McEmarkees" target="_blank"><i class="fab fa-medium fa-xl"></i></a>
+                          <a class="medium" href="#Mclist.com/McEmarkees" target="_blank"><i class="fab fa-medium fa-xl"></i></a>
                         </li>
                         <li>
                           <a class="gitHub" href="#github.com/Emarkees" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
@@ -217,8 +221,8 @@
             </div>
           </div>
           <div class="Skill-List">
-            <div class="Frame-12">
-              <div id="Frame-7" >
+            <div class="Frame-skills">
+              <div id="Frame-sent" >
                 <hr class="Sep-bttn-dwn">
                 <div class="bt-icns Normal-bttn-icons">
                   <div id="Icons_Icon-Chevron-Down-Larger" onclick="myFrame()">
@@ -232,35 +236,23 @@
                 </div>
               </div>
               <section class="Language-list">
-                <ul>
-                  <li id="Frame-9">
-                    <img class="java-img" src="./Scr/images/JavaScr.png">
-                    <div class="txt-lang Java-txt">
-                    <h5>JavaScript</h5>
-                    </div>
-                  </li>
-                  <li id="Frame-10">
-                    <div>
-                      <img class="html-img" src="./Scr/images/html.png">
-                    </div>
-                    <div class="txt-lang html-text">
-                      <h5>HTML</h5>
-                    </div>
-                  </li>
-                  <li id="Frame-11">
-                    <div>
-                      <img class="css-img" src="./Scr/images/Css.png">
-                    </div>
-                    <div class="txt-lang css-txt">
-                      <h5>CSS</h5>
-                    </div>
-                  </li>
-                </ul>
+                <div id="Frame-java">
+                  <img class="java-img" src="./Scr/images/JavaScr.png">
+                  <div class="txt-lang Java-txt"><h5>JavaScript</h5></div>
+                </div>
+                <div id="Frame-java">
+                  <img class="html-img" src="./Scr/images/html.png">
+                  <div class="txt-lang html-text"><h5>HTML</h5></div>
+                </div>
+                <div id="Frame-java">
+                  <img class="css-img" src="./Scr/images/Css.png">
+                  <div class="txt-lang css-txt"><h5>CSS</h5></div>
+                </div>
               </section>
             </div>
             <hr class="hr-frm-sl">
             <div class="Frame-12_b">
-              <div id="Frame-8">
+              <div id="Frame-framework">
                 <div class="bt-icns Nor-bttn-ic_se">
                   <div id="Icons_Icon-Chevron-Down-Larger_frm_8">
                     <div class="Union-dwn_frm_8">
@@ -274,8 +266,8 @@
               </div>
             </div>
             <hr class="hr-frm-tl" >
-            <div class="Frame-12_c">
-              <div id="Frame_9">
+            <div class="Frame-skill_c">
+              <div id="Frame-skills">
                 <div class="bt-icns Nor-bttn-ic_th">
                   <div id="Icons_Icon-Chevron-Down-Larger_frm_9">
                     <div class="Union-dwn_frm_9">
@@ -301,8 +293,8 @@
             </div>
             <form action="https://formspree.io/f/xnqrezql" method="post" >
               <ul class="form">
-                <li id="name-text-area">
-                  <div id="name-basic-container"><input type="text" name="name" placeholder="Enter Full Name" maxlength="30" class="name-basic-container name-text-input" required />
+                <li id="name-basic-container">
+                  <div id=""><input type="text" name="name" placeholder="Enter Full Name" maxlength="30" class="name-text-area name-text-input" required />
                   </div>
                 </li>
                 <li id="mail-text-area">
@@ -318,5 +310,5 @@
             </form>
           </div>
       </section>
-	</body>
+	  </body>
 	</html>
