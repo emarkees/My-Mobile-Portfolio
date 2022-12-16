@@ -50,11 +50,10 @@ main {
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: rgb(51, 177, 26);
 }
 
 .navItem {
- display: none;
+  display: none;
 }
 
 .pry-Txt-Body {
@@ -171,7 +170,6 @@ ul {
   background: #fff;
   border-radius: 0 0 0 70px;
   background-repeat: none;
-
 }
 
 .header-shape {
@@ -309,39 +307,35 @@ button {
   transform: scale(0.9);
 }
 
-.left {
+.left_avocado_block {
+  width: 295px;
+  height: 287px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 12px;
+  gap: 10px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-.avocado_block {
+.primary_avocado_text {
   width: 295px;
-  height: 288px;
-}
-
-.primary {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
   gap: 12px;
 }
 
-.avocado_text {
-  width: 295px;
-  height: 80px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.project {
+.avocado_title {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -350,9 +344,6 @@ button {
   order: 0;
   flex-grow: 0;
   margin: 0;
-}
-
-.avocado_title {
   width: 295px;
   height: 36px;
 }
@@ -487,18 +478,19 @@ button {
   flex-grow: 0;
 }
 
-.client_txt_bl {
+.client_txt_avocado {
   width: 295px;
   height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  margin: 0;
   color: #344563;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .tag_list {
@@ -610,17 +602,14 @@ button {
   flex-grow: 0;
 }
 
-.left .btn_text {
+.btn_text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
-  width: 127px;
+  width: 133px;
   height: 48px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -648,7 +637,7 @@ button {
   background: #2230d2;
   color: #fff;
 }
-  
+
 .professional {
   width: 327px;
   height: 596px;
@@ -674,7 +663,7 @@ button {
   transform: scale(0.9);
 }
 
-.professional_block {
+.left_block_professional {
   width: 295px;
   height: 322px;
   flex: none;
@@ -682,8 +671,13 @@ button {
   flex-grow: 0;
 }
 
-.text_professional {
-  width: 265px;
+.primary_text_professional {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 295px;
   height: 124px;
   flex: none;
   order: 0;
@@ -691,8 +685,32 @@ button {
 }
 
 .title_professional {
-  width: 265px;
-  height: 75px;
+  width: 285px;
+  height: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame_professional {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 236px;
+  height: 35px;
+  flex: none;
+  order: 1;
+  margin: 0;
+  flex-grow: 0;
 }
 
 .client_txt_professional {
@@ -707,6 +725,19 @@ button {
   flex-grow: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.tag_list_professional {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 203px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .Normal_enable_professional {
@@ -739,7 +770,7 @@ button {
   height: 48px;
   justify-content: center;
 }
-  
+
 .available {
   width: 327px;
   height: 552px;
@@ -765,17 +796,27 @@ button {
   transform: scale(0.9);
 }
 
-.block_available {
+.left_block_available {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
   width: 295px;
-  height: 288px;
+  height: 332px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-.text_available {
+.primary_text_available {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 10px;
   width: 295px;
-  height: 80px;
+  height: 50px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -784,6 +825,44 @@ button {
 .title_available {
   width: 295px;
   height: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.frame_available {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 236px;
+  height: 32px;
+  margin: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.client_txt_available {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .normal_enb_available {
@@ -829,15 +908,25 @@ button {
   transform: scale(0.9);
 }
 
-.block_nature {
+.left_block_nature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
   width: 295px;
-  height: 322px;
+  height: 332px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-.text_nature {
+.primary_text_nature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
   width: 295px;
   height: 124px;
   flex: none;
@@ -846,8 +935,47 @@ button {
 }
 
 .title_nature {
-  width: 290px;
+  width: 285px;
   height: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame_nature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 236px;
+  height: 32px;
+  margin: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.client_txt_nature {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .Normal_enable_nature {
@@ -1805,4 +1933,3 @@ ul li {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
