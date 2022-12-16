@@ -733,8 +733,8 @@
     position: absolute;
     left: 27.99%;
     right: 8.33%;
-    top: 62.95%;
-    bottom: 8.33%;
+    top: 67.95%;
+    bottom: 90%;
     width: 0;
   }
 
@@ -785,6 +785,14 @@
     left: 24px;
     right: 78px;
     top: calc(60% - 350px / 2);
+  }
+
+  .fa-angle-down {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 45.5%;
+    bottom: 37.5%;
   }
 
   .lg-bd-tb {
@@ -967,6 +975,14 @@
     top: calc(70% - 24px / 2);
   }
 
+  .fa-angle-right {
+    position: absolute;
+    left: 17%;
+    right: 25%;
+    top: 49.5%;
+    bottom: 37.5%;
+  }
+
   #Frame_skills {
     width: 684px;
     height: 72px;
@@ -981,6 +997,14 @@
     left: 24px;
     right: 78px;
     top: calc(90% - 24px / 2);
+  }
+
+  .fa-right {
+    position: absolute;
+    left: 12%;
+    right: 20%;
+    top: 450.5%;
+    bottom: 37.5%;
   }
 }
 
@@ -1597,14 +1621,14 @@
     position: absolute;
     left: 27.99%;
     right: 8.33%;
-    top: 89.95%;
-    bottom: 9.93%;
+    top: 73.95%;
+    bottom: 90.93%;
     width: 0;
   }
 
   .linkedin {
     position: absolute;
-    left: 11.33%;
+    left: 9.95%;
     right: 8.33%;
     top: 70.95%;
     bottom: 8.33%;
