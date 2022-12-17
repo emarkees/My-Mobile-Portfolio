@@ -1881,7 +1881,7 @@ ul li {
   width: 95%;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: rgb(94, 17, 17);
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
