@@ -26,10 +26,18 @@ This project was made with:
 - html
 - css
 
+## 🚀 Live Demo
+
+- https://emarkees.github.io/My-Mobile-Portfolio/
+
 ### Key Features <a name="key-features"></a>
 
 - **[header-background-mobile]**
 - **[Headline]**
+
+- **[Work-Sections]**
+- **[About-me]**
+- **[Contact-page]**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -46,7 +54,11 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 cd my-folder 
-git@github.com:emarkees/My-Mobile-Portfolio.git
+[git@github.com:emarkees/My-Mobile-Portfolio.git]
+
+### Deployment
+
+You can deploy this project using: [pages.github.io]
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -68,7 +80,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank... > Microverse
+I would like to thank...  [Microverse]
 
 ## 📝 License <a name="license"></a>
 
