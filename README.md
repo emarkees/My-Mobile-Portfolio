@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo]
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -30,6 +31,9 @@ This project was made with:
 
 - **[header-background-mobile]**
 - **[Headline]**
+
+### 🚀 Live Demo  <a name="Live Demo"></a>
+[Link to Live demo](https://emarkees.github.io/My-Mobile-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
