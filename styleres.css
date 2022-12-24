@@ -1017,7 +1017,6 @@
   main {
     background: #e5e5e5;
     width: 1349px;
-    height: 750px;
   }
 
   body {
@@ -1193,7 +1192,7 @@
     padding: 142px;
     gap: 142px;
     position: absolute;
-    width: 1040.9px;
+    width: 1065px;
     height: 2694px;
     left: 0;
     top: 917px;
@@ -1202,13 +1201,14 @@
   .cardWork {
     width: 1156px;
     height: 490px;
+    background: gold;
   }
 
   #snapshot_avocado {
     position: absolute;
     width: 544px;
     height: 448px;
-    left: 105px;
+    left: 118px;
     top: 165px;
   }
 
@@ -1221,7 +1221,7 @@
     position: absolute;
     width: 501px;
     height: 401px;
-    left: 672px;
+    left: 683px;
     top: 165px;
   }
 
@@ -1883,7 +1883,7 @@
     width: 1349px;
     height: 846px;
     left: 0;
-    top: 4255px;
+    top: 4295px;
   }
 
   .cont_frm_shapes-mob {
