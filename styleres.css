@@ -1013,7 +1013,6 @@
 }
 
 @media screen and (min-width: 1068px) {
-
   main {
     height: 5125px;
   }
@@ -1027,7 +1026,6 @@
     background: #f7f7f9;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    
   }
 
   .header-bacground-mobile {
@@ -1037,9 +1035,9 @@
     left: 0;
     top: 1px;
     border-radius: 0 0 0 90px;
+    background: #fff;
     background-size: 1250px;
     background-repeat: none;
-    background: #fff;
   }
 
   .header-shpe {
