@@ -1201,7 +1201,6 @@
   .cardWork {
     width: 1156px;
     height: 490px;
-    background: gold;
   }
 
   #snapshot_avocado {
@@ -1457,8 +1456,8 @@
     position: absolute;
     width: 544px;
     height: 448px;
-    left: 672px;
-    top: 69.2%;
+    left: 686px;
+    top: 69.15%;
   }
 
   .left_block_nature {
@@ -1470,7 +1469,7 @@
     position: absolute;
     width: 501px;
     height: 401px;
-    left: 105px;
+    left: 118px;
     top: calc(70% - 50px / 2);
   }
 
