@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo]
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -18,6 +19,8 @@
 
 **[My-Mobile-Portfolio]** is a project built as a student of Microverse, this websiteis where share projects and information about myself.
 
+ [Quick review about the project] (https://www.loom.com/share/462bcc42033749a1b0acc5531acaf3e8)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -30,6 +33,9 @@ This project was made with:
 
 - **[header-background-mobile]**
 - **[Headline]**
+
+### 🚀 Live Demo  <a name="Live Demo"></a>
+[Link to Live demo](https://emarkees.github.io/My-Mobile-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

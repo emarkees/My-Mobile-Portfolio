@@ -21,7 +21,7 @@
 
   .header-background-mobile {
     position: absolute;
-    width: 1325.5px;
+    width: 1349px;
     height: 916px;
     left: 0;
     border-radius: 0 0 0 150px;
@@ -80,6 +80,7 @@
     height: 40px;
     left: 1039px;
     top: 16px;
+    justify-content: center;
   }
 
   .navfont {
@@ -108,22 +109,25 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    justify-content: center;
     list-style-type: none;
   }
 
   .nav_about {
-    width: 70px;
-    height: 40px;
+    width: 50px;
+    height: 20px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    justify-content: center;
   }
 
   .nav_contact {
-    width: 86px;
-    height: 40px;
+    width: 63px;
+    height: 20px;
     flex: none;
     order: 2;
+    justify-content: center;
     flex-grow: 0;
   }
 
@@ -1010,8 +1014,12 @@
 
 @media screen and (min-width: 1068px) {
   main {
+    height: 5125px;
+  }
+
+  .main {
     background: #e5e5e5;
-    width: 1300px;
+    width: 1349px;
   }
 
   body {
@@ -1020,13 +1028,14 @@
     font-style: normal;
   }
 
-  .header-background-mobile {
+  .header-bacground-mobile {
     position: absolute;
-    width: 1325.99px;
+    width: 1349px;
     height: 916px;
     left: 0;
     top: 1px;
     border-radius: 0 0 0 90px;
+    background: #fff;
     background-size: 1250px;
     background-repeat: none;
   }
@@ -1044,7 +1053,7 @@
 
   .AppBar-Compact-Dark-iOS {
     position: fixed;
-    width: 1325.9px;
+    width: 1349px;
     height: 72px;
     left: 0;
     top: 0;
@@ -1084,7 +1093,7 @@
     top: 16px;
   }
 
-  .Headlines {
+  .Hedlines {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1183,10 +1192,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
     padding: 142px;
     gap: 142px;
     position: absolute;
-    width: 1040.9px;
+    width: 1065px;
     height: 2694px;
     left: 0;
     top: 917px;
@@ -1201,7 +1211,7 @@
     position: absolute;
     width: 544px;
     height: 448px;
-    left: 105px;
+    left: 118px;
     top: 165px;
   }
 
@@ -1214,7 +1224,7 @@
     position: absolute;
     width: 501px;
     height: 401px;
-    left: 672px;
+    left: 683px;
     top: 165px;
   }
 
@@ -1291,7 +1301,7 @@
     position: absolute;
     width: 544px;
     height: 455px;
-    left: 670px;
+    left: 689px;
     top: calc(40% - 799px / 2);
   }
 
@@ -1304,7 +1314,7 @@
     position: absolute;
     width: 501px;
     height: 401px;
-    left: 105px;
+    left: 118px;
     top: 795px;
   }
 
@@ -1373,9 +1383,9 @@
   #snapshot_available {
     position: absolute;
     width: 544px;
-    height: 448px;
-    right: 675px;
-    top: 47.74%;
+    height: 450px;
+    left: 118px;
+    top: 48%;
   }
 
   .left_block_available {
@@ -1387,7 +1397,7 @@
     position: absolute;
     width: 501px;
     height: 401px;
-    left: 672px;
+    left: 683px;
     top: calc(50% - 125px / 2);
   }
 
@@ -1450,8 +1460,8 @@
     position: absolute;
     width: 544px;
     height: 448px;
-    left: 672px;
-    top: 69.2%;
+    left: 686px;
+    top: 69.15%;
   }
 
   .left_block_nature {
@@ -1463,7 +1473,7 @@
     position: absolute;
     width: 501px;
     height: 401px;
-    left: 105px;
+    left: 118px;
     top: calc(70% - 50px / 2);
   }
 
@@ -1549,7 +1559,7 @@
 
   .base-about-my-self {
     position: absolute;
-    width: 1320.9px;
+    width: 1349px;
     height: 924px;
     left: 0;
     top: 3599px;
@@ -1873,10 +1883,10 @@
 
   .contact-background {
     position: absolute;
-    width: 1325px;
+    width: 1349px;
     height: 846px;
     left: 0;
-    top: 4255px;
+    top: 4295px;
   }
 
   .cont_frm_shapes-mob {
