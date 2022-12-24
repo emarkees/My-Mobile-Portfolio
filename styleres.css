@@ -1017,6 +1017,7 @@
   main {
     background: #e5e5e5;
     width: 1349px;
+    height: 750px;
   }
 
   body {
@@ -1027,7 +1028,7 @@
 
   .header-background-mobile {
     position: absolute;
-    width: 1325.99px;
+    width: 1349px;
     height: 916px;
     left: 0;
     top: 1px;
