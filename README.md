@@ -19,7 +19,7 @@
 
 **[My-Mobile-Portfolio]** is a project built as a student of Microverse, this websiteis where share projects and information about myself.
 
- [Quick review about the project](https://www.loom.com/share/6d66d9f6a1604de987fbd34a16c66037)
+ [Quick review about the project] (https://www.loom.com/share/462bcc42033749a1b0acc5531acaf3e8)
 
 ## 🛠 Built With <a name="built-with"></a>
 
