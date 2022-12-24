@@ -1380,9 +1380,9 @@
   #snapshot_available {
     position: absolute;
     width: 544px;
-    height: 448px;
-    right: 675px;
-    top: 47.74%;
+    height: 450px;
+    left: 118px;
+    top: 48%;
   }
 
   .left_block_available {
@@ -1394,7 +1394,7 @@
     position: absolute;
     width: 501px;
     height: 401px;
-    left: 672px;
+    left: 683px;
     top: calc(50% - 125px / 2);
   }
 
