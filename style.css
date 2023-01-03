@@ -73,6 +73,16 @@ main {
   top: 90px;
 }
 
+.portfolio-frame {
+  width: 315px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
 .pry-Txt-Body {
   width: 59vmax;
   height: 146px;
