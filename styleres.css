@@ -2,7 +2,7 @@
   .overlay {
     display: none;
   }
-  
+
   main {
     background: #e5e5e5;
   }
@@ -30,7 +30,7 @@
     left: 0;
     border-radius: 0 0 0 150px;
     background: #fff;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .header-shape {
@@ -41,7 +41,7 @@
     top: 119px;
     background-image: url(./Scr/images/Header\ bg.png);
     background-size: 1270px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .Logo-Placeholder {
@@ -596,7 +596,7 @@
     top: 60.09px;
     background-image: url(./Scr/images/contact_form_shapes-web.png);
     background-size: 1200px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .contact-left-text {
@@ -1041,7 +1041,7 @@
     border-radius: 0 0 0 90px;
     background: #fff;
     background-size: 1250px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .header-shpe {
@@ -1052,7 +1052,7 @@
     top: 119px;
     background: #000;
     background-size: 1285px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .AppBar-Compact-Dark-iOS {
@@ -1905,7 +1905,7 @@
     top: 60.09px;
     background-image: url(./Scr/images/contact_form_shapes-web.png);
     background-size: 1200px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .contact-left-text {
