@@ -219,7 +219,7 @@
     top: 0;
   }
 
-  .work {
+  #work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -580,7 +580,7 @@
     color: #fff;
   }
 
-  .contact-background {
+  #contact-background {
     position: absolute;
     width: 1300px;
     height: 846px;
@@ -671,7 +671,7 @@
     flex-grow: 0;
   }
 
-  #base-about-my-self {
+  #base-about-myself {
     position: absolute;
     width: 1325.9px;
     height: 704px;
@@ -1196,7 +1196,7 @@
     width: 0;
   }
 
-  .work {
+  #work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1565,7 +1565,7 @@
     color: #fff;
   }
 
-  #base-about-my-self {
+  #base-about-myself {
     position: absolute;
     width: 1349px;
     height: 924px;
@@ -1889,7 +1889,7 @@
     top: calc(90% - 24px / 2);
   }
 
-  .contact-background {
+  #contact-background {
     position: absolute;
     width: 1349px;
     height: 846px;
