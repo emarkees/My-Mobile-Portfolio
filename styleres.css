@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+  .overlay {
+    display: none;
+  }
+  
   main {
     background: #e5e5e5;
   }
@@ -667,7 +671,7 @@
     flex-grow: 0;
   }
 
-  .base-about-my-self {
+  #base-about-my-self {
     position: absolute;
     width: 1325.9px;
     height: 704px;
@@ -1062,6 +1066,10 @@
   }
 
   #Toolbar-Dark-Compact {
+    display: none;
+  }
+
+  .overlay {
     display: none;
   }
 
@@ -1557,7 +1565,7 @@
     color: #fff;
   }
 
-  .base-about-my-self {
+  #base-about-my-self {
     position: absolute;
     width: 1349px;
     height: 924px;

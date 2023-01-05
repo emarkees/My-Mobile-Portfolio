@@ -12,7 +12,7 @@
 			<style>@import url('http://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');</style>
 			<link rel="stylesheet" href="style.css" type="text/css">
       <link rel="stylesheet" href="styleres.css" type="text/css">
-			<script  type="text/javascript" scr="script.js"></script>
+			<script  type="text/javascript" href="script.js"></script>
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -26,27 +26,34 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css" integrity="sha512-k2UAKyvfA7Xd/6FrOv5SG4Qr9h4p2oaeshXF99WO3zIpCsgTJ3YZELDK0gHdlJE5ls+Mbd5HL50b458z3meB/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		</head>
+    
 		<body>
+
 			<main class="main">
+        
 				<header class="header-background-mobile">
           <nav class="AppBar-Compact-Dark-iOS">
             <div id="Toolbar-Dark-Compact">
               <div class="Normal-Buttn-Tert-Enabled">
-                <button id="NavIcon-Menu" ><div onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></div></button>
+                <div  id="hamburger" class=""  onclick="openNav()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
               </div>
             </div>
             <div class="Logo-Placeholder">
               <a href="#" class="MyLogo">My Logo</a>
             </div>
-            <div id="mobile-menu">
+                       
               <ul class="navItem">
-                <li class="portfolio-frame"><a href="#" class="nav_portfolio navfont">Portfolio</a></li>
-                <li class="about-frame"><a href="#"  class="nav_about navfont">About</a></li>
+                <li class="portfolio-frame  "><a href="#work" class="nav_portfolio navfont">Portfolio</a></li>
+                <li class="about-frame "><a href="#base-about-m-self"  class="nav_about navfont">About</a></li>
                 <li class="contact-frame"><a href="#"  class="nav_contact navfont">Contact</a></li>
               </ul>
-            </div>
-            
+              
           </nav>
+          
           <span class="rectangle"></span>
         </header>
 
@@ -76,6 +83,7 @@
 
 				<span class="header-shape"></span>
 			</main>
+
       <section class="work">
         <div class="cardWork avocado">
           <img id="snapshot_avocado" alt="snapshort img" src="./Scr/images/avocado.png">
@@ -158,7 +166,8 @@
           <div class="left_block_nature">
             <div class="primary_text_nature">
               <h1 class="title_nature">Multi-Post
-                Stories</h1>
+                Stories
+              </h1>
                 <ul class="frame_nature">
                   <li class="client_tag_list"><h2 class="client_canopy">CANOPY</h2></li>
                   <span class="counter"></span>
@@ -174,13 +183,15 @@
               <li class="java_tag"><h3 class="java_txt">javaScript</h3></li>
             </ul>
             <div id="action">
-              <button type="button" class="btn-sz-bx Normal_enable_nature btn_text" >See Project</button>              
+              <button type="button" class="btn-sz-bx Normal_enable_nature btn_text" 
+              >See Project
+            </button>              
             </div>
           </div>
         </div>
       </section>
 
-      <section class="base-about-my-self">
+      <section id="base-about-my-self">
         <article class="abt-my-dt">
           <div class="top-bg">
             <div class="pry-abt-ho"><h3 >About<br>Myself</h3></div>
@@ -321,5 +332,6 @@
             </form>
           </div>
       </section>
+      <script  type="text/javascript" src="script.js"></script>
 	  </body>
 	</html>
