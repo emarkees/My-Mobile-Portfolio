@@ -291,7 +291,6 @@ ul {
   top: calc(50% - 40px / 2);
   border-radius: 8px;
   justify-items: center;
-  background: #000;
 }
 
 #NavIcon_Menu {
