@@ -671,7 +671,7 @@
     flex-grow: 0;
   }
 
-  #base-about-myself {
+  #base-about-my-self {
     position: absolute;
     width: 1325.9px;
     height: 704px;
@@ -1565,7 +1565,7 @@
     color: #fff;
   }
 
-  #base-about-myself {
+  #base-about-my-self {
     position: absolute;
     width: 1349px;
     height: 924px;
@@ -1894,7 +1894,7 @@
     width: 1349px;
     height: 846px;
     left: 0;
-    top: 4295px;
+    top: 4305px;
   }
 
   .cont_frm_shapes-mob {
