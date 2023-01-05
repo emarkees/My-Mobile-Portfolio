@@ -2087,3 +2087,49 @@ ul li {
   transform: rotate(-135deg);
 }
 
+body.blur .menu:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  width: 399px;
+  height: 650px;
+  top: 8px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 1;
+  top: 50px;
+}
+#hamburger {
+  z-index: 1001;
+  position: relative;
+  top: 0;
+}
+
+.menu {
+  z-index: 1000; /* highest on page (unless its not to be blurred) and no other parent of this can have a z-index other than auto*/
+  display: none;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  top: 90px;
+  list-style: none;
+}
+
+.menu li {
+  background: lightblue;
+  padding: 10px;
+  width: 365px;
+  top: 50rem;
+  bottom: 7px;
+  
+}
+
+.open {
+  display: block;
+}
