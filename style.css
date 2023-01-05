@@ -342,7 +342,7 @@ ul {
   text-decoration: none;
 }
 
-.work {
+#work {
   display: grid;
   grid-template-columns: 20%;
   grid-template-rows: 20% 28% 20% 28%;
@@ -1767,7 +1767,7 @@ ul li {
   top: calc(80% - 50px / 2);
 }
 
-.contact-background {
+#contact-background {
   position: absolute;
   width: 375px;
   height: 779px;
