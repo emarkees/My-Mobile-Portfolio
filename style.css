@@ -37,7 +37,6 @@ main {
   height: 604px;
   left: calc(50% - 375px / 2);
   top: 92px;
-  z-index: -1;
 }
 
 .pry-Txt-Headlin {
@@ -82,10 +81,25 @@ main {
   width: 375px;
   height: 184px;
   left: 0px;
-  top: 90px;
+  top: 0;
   right: 0;
   z-index: 1;
   background: #0060;
+}
+
+.mobileNavItemu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  position: absolute;
+  width: 375px;
+  height: 184px;
+  left: 0px;
+  top: 90px;
+  right: 0;
+  z-index: 1;
 }
 
 .mobilefont {
@@ -2102,6 +2116,7 @@ ul li {
   transform: rotate(-135deg);
 }
 
+
 body.blur .menu::after {
   content: "";
   position: absolute;
@@ -2112,6 +2127,7 @@ body.blur .menu::after {
   height: 790px;
   top: 0;
   bottom: 0;
+  mix-blend-mode: multiply;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
@@ -2129,7 +2145,8 @@ body.blur .menu::after {
   padding: 0;
   top: 0;
   list-style: none;
-  mix-blend-mode: multiply;
+  background: #6070ff;
+  opacity: 5px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(5px);
 }

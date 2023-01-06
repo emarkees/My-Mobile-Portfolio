@@ -7,6 +7,7 @@ const hamburger = document.querySelector("#hamburger");
         hamburger.addEventListener("click", () => {
           hamburger.classList.toggle("active");
           menu.classList.toggle("open");
+          menu.classList.toogle("close")
           body.classList.toggle("fixed");
           body.classList.toggle("blur");
         });
