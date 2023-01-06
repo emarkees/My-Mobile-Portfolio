@@ -80,7 +80,7 @@ main {
   position: absolute;
   width: 375px;
   height: 184px;
-  left: 0px;
+  left: 0;
   top: 0;
   right: 0;
   z-index: 1;
@@ -96,7 +96,7 @@ main {
   position: absolute;
   width: 375px;
   height: 184px;
-  left: 0px;
+  left: 0;
   top: 90px;
   right: 0;
   z-index: 1;
@@ -302,17 +302,6 @@ li {
 
 ul li {
   list-style-type: none;
-}
-
-.menu  {
-  padding: 1px;
-  width: 375px;
-  height: 750px;
-  top: 5px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #6070ff;
 }
 
 .Normal-Buttn-Tert-Enabled {
@@ -2116,12 +2105,11 @@ ul li {
   transform: rotate(-135deg);
 }
 
-
 body.blur .menu::after {
   content: "";
   position: absolute;
   z-index: -1;
-  left: 0px;
+  left: 0;
   right: 12px;
   width: 391px;
   height: 790px;
@@ -2146,11 +2134,25 @@ body.blur .menu::after {
   top: 0;
   list-style: none;
   background: #6070ff;
-  opacity: 5px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(5px);
+  width: 375px;
+  height: 750px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .open {
   display: block;
+}
+
+.hamurger {
+  position: absolute;
+  top: 40px;
+  left: 310px;
+  font-size: 45px;
+  padding: 0;
+  height: 0;
+  text-decoration: none;
 }
