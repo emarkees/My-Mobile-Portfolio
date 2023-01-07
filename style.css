@@ -2394,14 +2394,20 @@ body.blur .menu::after {
 #modal_action {
   width: 311px;
   height: 56px;
-  
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 3;
   flex-grow: 0;
 }
+
+.divider {
+  width: 311px;
+  height: 17px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  background: #000;
+}
+
 
 
 
