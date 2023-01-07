@@ -2377,7 +2377,31 @@ body.blur .menu::after {
   flex-grow: 0;
 }
 
+.modal_tag_dev {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 203px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0;
+}
 
+#modal_action {
+  width: 311px;
+  height: 56px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
 
 
 
