@@ -2215,6 +2215,24 @@ body.blur .menu::after {
   flex-grow: 0;
 }
 
+.modal_frame_dev {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  
+  width: 236px;
+  height: 32px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
 .containers-works-section {
   padding: 100px 24px;
 }
