@@ -2157,6 +2157,8 @@ body.blur .menu::after {
   text-decoration: none;
 }
 
+/** MODAL LAYOUT*/
+
 .modal_overlay {
   display: non;
   position: fixed;
@@ -2189,6 +2191,20 @@ body.blur .menu::after {
   
 }
 
+.modal_pry_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 311px;
+  height: 84px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: rgb(209, 16, 16);
+}
+
 .modal_frame {
   display: flex;
   flex-direction: row;
@@ -2197,10 +2213,7 @@ body.blur .menu::after {
   gap: 12px;
   width: 311px;
   height: 40px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  background: rgb(209, 16, 16);
+  background: rgb(206, 161, 161);
 }
 
 .modal_btn {
@@ -2221,15 +2234,91 @@ body.blur .menu::after {
   align-items: center;
   padding: 0px;
   gap: 12px;
-  
   width: 236px;
   height: 32px;
-  
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 1;
+  flex-grow: 0;
+  margin: 0;
+  background: rgb(170, 150, 36);
+}
+
+.modal_tag_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px;
+  width: 55px;
+  height: 15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: green;
+}
+
+.modal_canopy {
+  width: 55px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.modal_tag_role {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px;
+  width: 92px;
+  height: 16px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.modal_role {
+  width: 90px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.modal_yr {
+  width: 90px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.modal_tag_year {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0;
+  width: 29px;
+  height: 32px;
+  flex: none;
+  order: 4;
   flex-grow: 0;
 }
 
@@ -2265,7 +2354,7 @@ body.blur .menu::after {
   background: #fff;
 }
 
-.modal_pry_txt {
+.modl_pry_txt {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
