@@ -2211,7 +2211,7 @@ body.blur .menu::after {
   height: 40px;
 }
 
-.modal_btn {
+.modalBtn {
   display: flex;
   position: absolute;
   width: 24px;

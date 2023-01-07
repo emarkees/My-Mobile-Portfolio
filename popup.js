@@ -1,34 +1,22 @@
-
-
-
 const theModal = document.querySelector('.modal_overlay');
-const closeModal = document.querySelector('modal_hamburger');
 const worksSection = document.querySelector('.work-container');
-
 const cardWork = [
-
   {
-    
-    name: "Tonic",
+    name: 'Tonic',
     Cartegories: ['CANOPY', 'Back End Dev', '2015'],
-    featuredImage: "./Scr/images/avocado.png",
-    shortDescription:"A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    longdescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featuredImage: './Scr/images/avocado.png',
+    shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    longdescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'css', 'javaScript'],
     linkToLive: 'https://github.com/emolio',
     linkToSource: 'https://emarkees.github.',
-    cardNo: "#one", 
+    cardNo: '#one',
   },
-
- 
-  
-  
 ];
 
 let htmll = '';
 cardWork.forEach((item) => {
-
   htmll += `
   <div class="box" id="${item.cardNo}">
     <img src="${item.featuredImage}" alt="image card" class="snapshot_avocado">
@@ -54,19 +42,17 @@ cardWork.forEach((item) => {
   </div>`;
 });
 
-
-worksSection.innerHTML = htmll
+worksSection.innerHTML = htmll;
 
 let html2 = '';
 
 cardWork.forEach((item) => {
-
- html2 += `<div class="modal_overlay">
+  html2 += `<div class="modal_overlay">
  <div id="myModal" class="modal">
    <div class="modal_pry_txt">
      <div class="modal_frame">
       <h1 class="mobile_proj_title"> ${item.name} </h1>
-       <span class="modal_btn"><i class=" modal_hamburger fa-solid fa-x"></i></span>
+       <span class="modalBtn"><i class=" modal_hamburger fa-solid fa-x"></i></span>
      </div>
      <ul class="modal_frame_dev">
        <li class="modal_tag_list"><h2 class="modal_canopy">CANOPY</h2></li>
@@ -105,27 +91,20 @@ cardWork.forEach((item) => {
      </div>
    </div>
  </div>
-</div>`
+</div>`;
 });
 
-
-const projectButton = document.querySelectorAll('.see-project');
-  for (let i = 0; i<4; i++){
-    projectButton[i].addEventListener('click', openpopup);
-  }
-  
-  
-  
-  function openpopup () {
-   
-
+function openpopup() {
   const ddd = document.querySelector('.ddd');
   ddd.innerHTML = html2;
-  };
+}
+const projectButton = document.querySelectorAll('.see-project');
+for (let i = 0; i < 4; i += 1) {
+  projectButton[i].addEventListener('click', openpopup);
+}
 
+const modalBtn = document.querySelector('.modalBtn');
 
-  const modal_btn = document.querySelector('.modal_btn');
-
-  modal_btn.addEventListener('click', () => {
-  theModal.style.display= 'none';
+modalBtn.addEventListener('click', () => {
+  theModal.style.display = 'none';
 });
