@@ -2685,7 +2685,6 @@ body.blur .menu::after {
   flex: none;
   order: 2;
   flex-grow: 0;
-  background: #000;
 }
 
 .tags_li {
