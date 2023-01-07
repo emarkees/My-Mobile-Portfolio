@@ -2436,7 +2436,7 @@ body.blur .menu::after {
   gap: 10px;
   width: 136px;
   height: 48px;
-  left: 15px;
+  left: 9px;
   bottom: 20px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -2459,15 +2459,23 @@ body.blur .menu::after {
   align-items: center;
   padding: 12px 22px;
   gap: 10px;
-  width: 136px;
+  width: 149px;
   height: 48px;
-  left: 170px;
+  left: 159px;
   bottom: 20px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   position: absolute;
   margin-left: 9px;
   text-decoration: none;
+}
+
+.git_vector {
+  position: absolute;
+  left: 120px;
+  right: 0%;
+  top: 15px;
+  bottom: 0%;  
 }
 
 
