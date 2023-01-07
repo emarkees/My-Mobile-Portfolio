@@ -2161,7 +2161,7 @@ body.blur .menu::after {
 /** MODAL LAYOUT*/
 
 .modal_overlay {
-  display: non;
+  display: none;
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -2393,9 +2393,6 @@ body.blur .menu::after {
 }
 
 #modal_action {
-  background: #000;
-  align-content: center;
-  justify-items: center;
   width: 311px;
   height: 56px;
   flex: none;
