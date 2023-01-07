@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+  .overlay {
+    display: none;
+  }
+
   main {
     background: #e5e5e5;
   }
@@ -26,7 +30,7 @@
     left: 0;
     border-radius: 0 0 0 150px;
     background: #fff;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .header-shape {
@@ -37,7 +41,7 @@
     top: 119px;
     background-image: url(./Scr/images/Header\ bg.png);
     background-size: 1270px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .Logo-Placeholder {
@@ -215,7 +219,7 @@
     top: 0;
   }
 
-  .work {
+  #work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -576,7 +580,7 @@
     color: #fff;
   }
 
-  .contact-background {
+  #contact-background {
     position: absolute;
     width: 1300px;
     height: 846px;
@@ -592,7 +596,7 @@
     top: 60.09px;
     background-image: url(./Scr/images/contact_form_shapes-web.png);
     background-size: 1200px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .contact-left-text {
@@ -667,7 +671,7 @@
     flex-grow: 0;
   }
 
-  .base-about-my-self {
+  #base-about-my-self {
     position: absolute;
     width: 1325.9px;
     height: 704px;
@@ -1037,7 +1041,7 @@
     border-radius: 0 0 0 90px;
     background: #fff;
     background-size: 1250px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .header-shpe {
@@ -1048,7 +1052,7 @@
     top: 119px;
     background: #000;
     background-size: 1285px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .AppBar-Compact-Dark-iOS {
@@ -1062,6 +1066,10 @@
   }
 
   #Toolbar-Dark-Compact {
+    display: none;
+  }
+
+  .overlay {
     display: none;
   }
 
@@ -1188,7 +1196,7 @@
     width: 0;
   }
 
-  .work {
+  #work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1557,7 +1565,7 @@
     color: #fff;
   }
 
-  .base-about-my-self {
+  #base-about-my-self {
     position: absolute;
     width: 1349px;
     height: 924px;
@@ -1881,12 +1889,12 @@
     top: calc(90% - 24px / 2);
   }
 
-  .contact-background {
+  #contact-background {
     position: absolute;
     width: 1349px;
     height: 846px;
     left: 0;
-    top: 4295px;
+    top: 4305px;
   }
 
   .cont_frm_shapes-mob {
@@ -1897,7 +1905,7 @@
     top: 60.09px;
     background-image: url(./Scr/images/contact_form_shapes-web.png);
     background-size: 1200px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 
   .contact-left-text {

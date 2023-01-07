@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  width: 357px;
 }
 
 main {
@@ -54,6 +55,111 @@ main {
 
 .navItem {
   display: none;
+}
+
+.Nav-Buttn-Tert-Enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 25px;
+  top: calc(9.7% - 50px / 2);
+  border-radius: 8px;
+  justify-items: center;
+}
+
+.mobileNavItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  position: absolute;
+  width: 375px;
+  height: 184px;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: #0060;
+}
+
+.mobileNavItemu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  position: absolute;
+  width: 375px;
+  height: 184px;
+  left: 0;
+  top: 90px;
+  right: 0;
+  z-index: 1;
+}
+
+.mobilefont {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile_portfolio_frame {
+  width: 351px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.mobileNav_portfolio {
+  position: absolute;
+  height: 40px;
+  left: 16px;
+  right: 16px;
+  top: calc(18% - 50px / 2);
+}
+
+.mobile_about_frame {
+  width: 351px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.mobileNav_about {
+  position: absolute;
+  height: 40px;
+  left: 16px;
+  right: 16px;
+  top: calc(53% - 50px / 2);
+}
+
+.mobile_contact_frame {
+  width: 351px;
+  height: 56px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.mobileNav_contact {
+  position: absolute;
+  height: 40px;
+  left: 16px;
+  right: 16px;
+  top: calc(87% - 50px / 2);
 }
 
 .pry-Txt-Body {
@@ -169,7 +275,7 @@ ul {
   top: 0;
   background: #fff;
   border-radius: 0 0 0 70px;
-  background-repeat: none;
+  background-repeat: no-repeat;
 }
 
 .header-shape {
@@ -190,6 +296,14 @@ ul {
   bottom: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
 .Normal-Buttn-Tert-Enabled {
   display: flex;
   flex-direction: row;
@@ -204,19 +318,14 @@ ul {
   justify-items: center;
 }
 
-#NavIcon-Menu {
+#NavIcon_Menu {
   width: 24px;
   height: 24px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: #fff;
   border: none;
-}
-
-button {
-  color: none;
-  background-color: none;
+  background: none;
 }
 
 .fa-bars {
@@ -258,7 +367,7 @@ button {
   text-decoration: none;
 }
 
-.work {
+#work {
   display: grid;
   grid-template-columns: 20%;
   grid-template-rows: 20% 28% 20% 28%;
@@ -268,7 +377,7 @@ button {
   position: absolute;
   width: 325px;
   height: 2788px;
-  left: 5;
+  left: 5px;
   top: 718px;
 }
 
@@ -293,7 +402,7 @@ button {
 }
 
 #snapshot_avocado {
-  width: 25;
+  width: 295px;
   height: 220px;
   background-repeat: no-repeat;
   border-radius: 8px;
@@ -996,7 +1105,7 @@ button {
   color: #fff;
 }
 
-.base-about-my-self {
+#base-about-my-self {
   position: absolute;
   width: 375px;
   height: 1210px;
@@ -1340,10 +1449,6 @@ button {
   top: 5px;
 }
 
-li {
-  list-style-type: none;
-}
-
 .java-img {
   position: absolute;
   width: 50px;
@@ -1390,10 +1495,6 @@ li {
   top: calc(55% - 80px / 2 - 0.36px);
 }
 
-ul li {
-  list-style-type: none;
-}
-
 .html-text {
   position: absolute;
   height: 24px;
@@ -1431,7 +1532,7 @@ ul li {
 
 .FrameTab {
   position: absolute;
-  max-width: fit-content;
+  width: 80%;
   height: 24px;
   left: 40px;
   right: 7px;
@@ -1683,11 +1784,11 @@ ul li {
   top: calc(80% - 50px / 2);
 }
 
-.contact-background {
+#contact-background {
   position: absolute;
   width: 375px;
   height: 779px;
-  left: 0;
+  left: 8px;
   top: 4729px;
   background: #6070ff;
   justify-content: center;
@@ -1932,4 +2033,126 @@ ul li {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+#hamburger {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 6px;
+  top: 8px;
+  z-index: 1001;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#hamburger span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #6070ff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+#hamburger span:nth-child(1) {
+  top: 0;
+}
+
+#hamburger span:nth-child(2) {
+  top: 10px;
+}
+
+#hamburger span:nth-child(3) {
+  top: 20px;
+}
+
+#hamburger.open span:nth-child(1) {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#hamburger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#hamburger.open span:nth-child(3) {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+body.blur .menu::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 12px;
+  width: 391px;
+  height: 790px;
+  top: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.blur {
+  opacity: 1;
+  top: 50px;
+}
+
+.menu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  list-style: none;
+  background: #6070ff;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(5px);
+  width: 375px;
+  height: 750px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.open {
+  display: block;
+}
+
+.hamurger {
+  position: absolute;
+  top: 40px;
+  left: 310px;
+  font-size: 45px;
+  padding: 0;
+  height: 0;
+  text-decoration: none;
 }
