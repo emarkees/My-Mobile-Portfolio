@@ -49,9 +49,9 @@ cardWork.forEach((item) => {
   <div class="box" id="${item.id}">
     <img src="${item.img}" alt="image card" class="snapshot_avocado">
     <div class="mobile_left_block">
-      <div class="modal_pry_txt">
-        <h2 class="modal_proj_title"> ${item.title} </h1>
-        <ul class="modal_frame_dev">
+      <div class="mobile_pry_txt">
+        <h2 class="mobile_proj_title"> ${item.title} </h1>
+        <ul class="mobile_frame_dev">
           <li class="mobile_tag_list"><h1 class="mobile_canopy">CANOPY</h2></li>
           <span class="counter"></span>
           <li class="mobile_tag_role"><h5 class="mobile_role">Back End Dev</h5></li>
