@@ -33,6 +33,8 @@ This project was made with:
 
 - **[header-background-mobile]**
 - **[Headline]**
+- **[Mobile-Window-Popup]**
+- **[Desktop-Window-Popup]**
 
 ### 🚀 Live Demo  <a name="Live Demo"></a>
 [Link to Live demo](https://emarkees.github.io/My-Mobile-Portfolio/)
