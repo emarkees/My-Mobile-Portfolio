@@ -1,5 +1,4 @@
-const hamburgerButton = document.querySelector('.modal_btn');
-const closeBtn = document.querySelector('.modal_hamburger');
+
 
 
 const theModal = document.querySelector('.modal_overlay');
@@ -15,11 +14,15 @@ const cardWork = [
     featuredImage: "./Scr/images/avocado.png",
     shortDescription:"A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    longdescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'css', 'javaScript'],
     linkToLive: 'https://github.com/emolio',
     linkToSource: 'https://emarkees.github.',
     cardNo: "#one", 
   },
+
+ 
+  
   
 ];
 
@@ -55,11 +58,14 @@ cardWork.forEach((item) => {
 worksSection.innerHTML = htmll
 
 let html2 = '';
+
+cardWork.forEach((item) => {
+
  html2 += `<div class="modal_overlay">
  <div id="myModal" class="modal">
    <div class="modal_pry_txt">
      <div class="modal_frame">
-       <h1 class="modal_proj_title">Tonic</h1>
+      <h1 class="mobile_proj_title"> ${item.name} </h1>
        <span class="modal_btn"><i class=" modal_hamburger fa-solid fa-x"></i></span>
      </div>
      <ul class="modal_frame_dev">
@@ -70,15 +76,12 @@ let html2 = '';
        <li class="modal_tag_year"><h2 class="modal_yr">2015</h2></li>
      </ul>
    </div>
-   <img id="snapsht_avocado" alt="snapshort img" src="./Scr/images/avocado.png" >
+   <img src="${item.featuredImage}" alt="image card" id="snapsht_avocado">
    <div class="modal_Left_Block">
-     <p class="modal_description">
-       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
-     <ul class="modal_tag_dev">
-       <li class="html_tag"><h3 class="html_txt">html</h3></li>
-       <li class="css_tag"><h3 class="css_txt">css</h3></li>
-       <li class="java_tag"><h3 class="java_txt">javaScript</h3></li>
-     </ul>
+   <div class="modal_description"> ${item.description} </div>
+    <ul class="technologies-label">
+      ${item.technologies.map((tech) => `<li class="modal_tag_dev">${tech}</li>`).join('')}
+    </ul>
      <span class="divider">
        <hr class="modal_vector">
      </span>
@@ -103,9 +106,15 @@ let html2 = '';
    </div>
  </div>
 </div>`
-const projectButton = document.querySelectorAll('.see-project');
+});
 
-  projectButton[0].addEventListener('click', openpopup);
+
+const projectButton = document.querySelectorAll('.see-project');
+  for (let i = 0; i<4; i++){
+    projectButton[i].addEventListener('click', openpopup);
+  }
+  
+  
   
   function openpopup () {
    
@@ -115,13 +124,8 @@ const projectButton = document.querySelectorAll('.see-project');
   };
 
 
-hamburgerButton.addEventListener('click', () => {
-    nav.classList.add('close');
-  });
+  const modal_btn = document.querySelector('.modal_btn');
 
-closeBtn.addEventListener('click', () => {
-  nav.classList.remove('open');
+  modal_btn.addEventListener('click', () => {
+  theModal.style.display= 'none';
 });
-
-
-

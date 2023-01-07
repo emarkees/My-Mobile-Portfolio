@@ -2051,7 +2051,6 @@ ul li {
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  z-index: 1;
 }
 
 #hamburger span {
@@ -2158,8 +2157,6 @@ body.blur .menu::after {
   text-decoration: none;
 }
 
-/** MODAL LAYOUT*/
-
 .modal_overlay {
   display: block;
   position: fixed;
@@ -2184,12 +2181,11 @@ body.blur .menu::after {
   position: absolute;
   width: 343px;
   height: 713px;
-  left: calc(50% - 510px/2);
+  left: calc(50% - 510px / 2);
   top: 60px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
-  
 }
 
 .modal_pry_txt {
@@ -2209,7 +2205,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 311px;
   height: 40px;
@@ -2231,7 +2227,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 236px;
   height: 32px;
@@ -2245,7 +2241,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 55px;
   height: 15px;
   flex: none;
@@ -2271,7 +2267,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 92px;
   height: 16px;
   flex: none;
@@ -2287,7 +2283,7 @@ body.blur .menu::after {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -2301,7 +2297,7 @@ body.blur .menu::after {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -2350,11 +2346,11 @@ body.blur .menu::after {
   transition: transform 2s;
 }
 
-.modal_Left_Block { 
+.modal_Left_Block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 311px;
   height: 353px;
@@ -2363,10 +2359,10 @@ body.blur .menu::after {
   flex-grow: 0;
 }
 
-.modal_description  {
+.modal_description {
   width: 311px;
   height: 220px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -2384,7 +2380,7 @@ body.blur .menu::after {
   align-items: center;
   padding: 0;
   gap: 12px;
-  width: 203px;
+  width: 53px;
   height: 24px;
   flex: none;
   order: 1;
@@ -2410,11 +2406,11 @@ body.blur .menu::after {
 
 .modal_vector {
   position: absolute;
-  height: 0px;
+  height: 0;
   left: 4px;
   right: 4px;
-  top: calc(50% - 0 / 2 - 0.5px);
-  border: 1px solid #ebecf0
+  top: calc(50% - 1px / 2 - 0.5px);
+  border: 1px solid #ebecf0;
 }
 
 .modal_live_link {
@@ -2470,16 +2466,9 @@ body.blur .menu::after {
 .git_vector {
   position: absolute;
   left: 120px;
-  right: 0%;
+  right: 0;
   top: 15px;
-  bottom: 0%;  
-}
-
-
-
-/*card work*/
-.containers-works-section {
-  padding: 100px 24px;
+  bottom: 0;
 }
 
 .work-container {
@@ -2502,14 +2491,12 @@ body.blur .menu::after {
   flex-direction: column;
   padding: 14px;
   gap: 16px;
-  width:325px;
+  width: 325px;
   height: 552px;
   border: 1px solid #5a85f3;
   border-radius: 16px;
   background: #fff;
 }
-
-
 
 .snapshot_avocado {
   width: 295px;
@@ -2541,7 +2528,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -2554,7 +2541,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 80px;
@@ -2567,7 +2554,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 311px;
   height: 40px;
@@ -2584,7 +2571,7 @@ body.blur .menu::after {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -2595,7 +2582,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 10px;
   width: 236px;
   height: 32px;
@@ -2609,7 +2596,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 55px;
   height: 15px;
   flex: none;
@@ -2635,7 +2622,7 @@ body.blur .menu::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 92px;
   height: 16px;
   flex: none;
@@ -2651,7 +2638,7 @@ body.blur .menu::after {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -2665,7 +2652,7 @@ body.blur .menu::after {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -2683,21 +2670,22 @@ body.blur .menu::after {
   flex-grow: 0;
 }
 
-.technologies-label  {
+.technologies-label {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 12px;
+  padding: 0 52px;
   border-radius: 8px;
   color: #6070ff;
-  gap: 8px;
+  gap: 0;
   width: 203px;
   height: 24px;
   margin: 0;
-  top: 0;
+  top: 500px;
   flex: none;
   order: 2;
   flex-grow: 0;
+  background: #000;
 }
 
 .tags_li {
@@ -2708,7 +2696,7 @@ body.blur .menu::after {
   justify-content: center;
   width: 58px;
   height: 18px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -2723,11 +2711,7 @@ body.blur .menu::after {
   flex-grow: 0;
 }
 
-
-
-
 .see-project:hover {
   color: #fff;
   background-color: #396df2;
 }
-
