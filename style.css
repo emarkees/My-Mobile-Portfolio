@@ -2195,14 +2195,13 @@ body.blur .menu::after {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 311px;
   height: 84px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: rgb(209, 16, 16);
 }
 
 .modal_frame {
@@ -2213,7 +2212,6 @@ body.blur .menu::after {
   gap: 12px;
   width: 311px;
   height: 40px;
-  background: rgb(206, 161, 161);
 }
 
 .modal_btn {
@@ -2233,14 +2231,13 @@ body.blur .menu::after {
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  gap: 12px;
+  gap: 8px;
   width: 236px;
   height: 32px;
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 0;
-  background: rgb(170, 150, 36);
 }
 
 .modal_tag_list {
@@ -2253,7 +2250,6 @@ body.blur .menu::after {
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: green;
 }
 
 .modal_canopy {
@@ -2322,6 +2318,26 @@ body.blur .menu::after {
   flex-grow: 0;
 }
 
+.modal_counter {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  border-radius: 50px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.modal_counter_tw {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  border-radius: 50px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
 .containers-works-section {
   padding: 100px 24px;
 }
@@ -2338,7 +2354,6 @@ body.blur .menu::after {
   height: 2788px;
   left: 8px;
   top: 718px;
-  background: rgb(156, 89, 89);
 }
 
 .box {
@@ -2365,7 +2380,6 @@ body.blur .menu::after {
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: rgb(101, 175, 32);
 }
 
 .snapshot_avocado {
@@ -2378,4 +2392,6 @@ body.blur .menu::after {
   flex-grow: 0;
   transition: transform 2s;
 }
+
+
 
