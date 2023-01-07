@@ -41,3 +41,30 @@ const cardWork = [
     linkToSource: 'https://github.com/AlexisJW/set-up-myFirst-mobile',
   },
 ]
+
+let html = '';
+cardWork.forEach((item) => {
+
+  html += `
+  <div class="box" id="${item.id}">
+    <img src="${item.img}" alt="image card" class="snapshot_avocado">
+    <div class="mobile_left_block">
+      <div class="modal_pry_txt">
+        <h2 class="modal_proj_title"> ${item.title} </h1>
+        <ul class="modal_frame_dev">
+          <li class="mobile_tag_list"><h1 class="mobile_canopy">CANOPY</h2></li>
+          <span class="counter"></span>
+          <li class="mobile_tag_role"><h5 class="mobile_role">Back End Dev</h5></li>
+          <span class="counter_tw"></span>
+          <li class="mobile_tag_year"><h5 class="mobile_yr">2015</h5></li>
+        </ul>
+      </div>
+      <div class="details"> ${item.shortDescription} </div>
+      <ul class="technologies-label">
+      ${item.technologies.map((tech) => `<li class="tags_li">${tech}</li>`).join('')}
+    </ul>
+    </div>
+      
+  </div>`;
+});
+
