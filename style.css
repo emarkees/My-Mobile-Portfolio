@@ -2405,7 +2405,15 @@ body.blur .menu::after {
   flex: none;
   order: 2;
   flex-grow: 0;
-  background: #000;
+}
+
+.modal_vector {
+  position: absolute;
+  height: 0px;
+  left: 4px;
+  right: 4px;
+  top: calc(50% - 0 / 2 - 0.5px);
+  border: 1px solid #ebecf0
 }
 
 
