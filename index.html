@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 	<html lan="en" xml:lang="en">
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<head>
 			<meta charset="UTF-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" type="text/css" href="style-original.css">
+			
 			<title>My potfolio</title>
 			<style>@import url('http://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');</style>
 			<link rel="stylesheet" href="style.css" type="text/css">
@@ -91,8 +88,12 @@
 
 				<span class="header-shape"></span>
 			</main>
-
-      <section id="work">
+      <section class="containers-works-section" id="portfolio">
+        <div class="work-container">
+     
+        </div>
+      </section> 
+      <!--<section id="work">
         <div class="cardWork avocado">
           <img id="snapshot_avocado" alt="snapshort img" src="./Scr/images/avocado.png">
           <div class="left_avocado_block">
@@ -197,7 +198,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
+         
+     
 
       <section id="base-about-my-self">
         <article class="abt-my-dt">
@@ -321,25 +324,79 @@
               <p class="contact-text-body">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
               </p>
             </div>
-            <form action="https://formspree.io/f/xnqrezql" method="post" >
+            <form action="https://formspree.io/f/xnqrezql" method="post" class="contact-form" id="form" onload='document.form1.text1.focus()'>
               <ul class="form">
                 <li id="name-text-area ">
-                  <div id="name-basic-container"><input type="text" name="name" placeholder="Enter Full Name" maxlength="30" class= "name-text-input" required />
+                  <div id="name-basic-container"><input type="text" name="name" id="form_input1" placeholder="Enter Full Name" maxlength="30" class= "name-text-input" required />
                   </div>
                 </li>
                 <li id="mail-text-area">
-                  <div id="mail-basic-container"><input type="email" name="e-mail" placeholder="Enter e-mail" class="mail-text-input " required /></div>
+                  <div id="mail-basic-container"><input type="email" name="e-mail" id="form_input2" placeholder="Enter e-mail" class="mail-text-input " required /></div>
                 </li>
                 <li id="text-area">
                   <textarea name="text-area" placeholder="Write your message here" cols="30" rows="10" maxlength="500" class="txt-area txt-cont-out" required></textarea>
                 </li>
               <li class="action">
-                <button type="submit" class="btn-sz-sub sub_text">Get In Touch</button>
+                <button type="submit" id="validate" class="btn-sz-sub sub_text">Get In Touch</button>
               </li>
               </ul>
             </form>
           </div>
       </section>
+
+<section class="ddd">
+  
+  <!--
+      <div class="modal_overdlay">
+        <div id="myModal" class="modal">
+          <div class="modal_pry_txt">
+            <div class="modal_frame">
+              <h1 class="modal_proj_title">Tonic</h1>
+              <span class="modalBtn"><i class=" modal_hamburger fa-solid fa-x"></i></span>
+            </div>
+            <ul class="modal_frame_dev">
+              <li class="modal_tag_list"><h2 class="modal_canopy">CANOPY</h2></li>
+              <span class="modal_counter"></span>
+              <li class="modal_tag_role"><h2 class="modal_role">Back End Dev</h2></li>
+              <span class="modal_counter_tw"></span>
+              <li class="modal_tag_year"><h2 class="modal_yr">2015</h2></li>
+            </ul>
+          </div>
+          <img id="snapsht_avocado" alt="snapshort img" src="./Scr/images/avocado.png" >
+          <div class="modal_Left_Block">
+            <p class="modal_description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+            <ul class="modal_tag_dev">
+              <li class="html_tag"><h3 class="html_txt">html</h3></li>
+              <li class="css_tag"><h3 class="css_txt">css</h3></li>
+              <li class="java_tag"><h3 class="java_txt">javaScript</h3></li>
+            </ul>
+            <span class="divider">
+              <hr class="modal_vector">
+            </span>
+            <div id="modal_action">
+              <a href="" class="link-live">
+                <button 
+                class="modal_live_link" type="button">See Live
+                <img 
+                  src="./Scr/images/see_source.svg" 
+                  />
+              </button>
+              </a>
+              <a href="" class="link-git">
+                <button 
+                  class="modal_live_source"  type="button"  id="icon-gitModal" >See source
+                  <img  class="git_vector"
+                  src="./Scr/images/see_live.svg" 
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    </section>
       <script  type="text/javascript" src="script.js"></script>
+      <script  type="text/javascript" src="popup.js"></script>
 	  </body>
 	</html>
