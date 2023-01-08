@@ -108,3 +108,33 @@ const modalBtn = document.querySelector('.modalBtn');
 modalBtn.addEventListener('click', () => {
   theModal.style.display = 'none';
 });
+
+const checkLowerCase = (str) => {
+  if (str === str.toLowerCase()) {
+    return true;
+  }
+  return false;
+};
+
+function validateForm(e) {
+  e.preventDefault();
+  const email = document.getElementById('form_input2').value;
+  const formObj = {
+    name: document.getElementById('form_input1').value,
+    email,
+    validate: document.getElementById('validate').value,
+  };
+
+  const islowercase = checkLowerCase(email);
+  const form = document.getElementById('form');
+  if (islowercase) {
+    form.action = 'https://formspree.io/f/myyvrjyj';
+    form.submit();
+    localStorage.setItem('formObj', JSON.stringify(formObj));
+  } else {
+    document.getElementById('validate').innerHTML = 'Your email address should be in lowercase';
+  }
+}
+
+// Validation form
+document.getElementsByClassName('form').addEventListener('submit', validateForm);
