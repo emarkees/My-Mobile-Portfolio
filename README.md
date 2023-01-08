@@ -9,6 +9,7 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
 - [👥 Authors](#authors)
+- 🔭 Future Features
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -33,6 +34,8 @@ This project was made with:
 
 - **[header-background-mobile]**
 - **[Headline]**
+- **[Mobile-Window-Popup]**
+- **[Desktop-Window-Popup]**
 
 ### 🚀 Live Demo  <a name="Live Demo"></a>
 [Link to Live demo](https://emarkees.github.io/My-Mobile-Portfolio/)
@@ -61,6 +64,12 @@ git@github.com:emarkees/My-Mobile-Portfolio.git
 - GitHub: [@emarkees](https://github.com/emarkees)
 - Twitter: [@McEmarkees](https://twitter.com/McEmarkees)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/)
+
+🔭 Future Features
+Describe 1 - 3 features you will add to the project.
+
+ [Mobile_menu]
+ [Window_popup]
 
 ## 🤝 Contributing <a name="contributing"></a>
 
