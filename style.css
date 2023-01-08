@@ -2692,6 +2692,7 @@ body.blur .menu::after {
   flex-direction: row;
   align-items: center;
   padding: 3px 12px;
+  gap: 2px;
   justify-content: center;
   width: 58px;
   height: 18px;
@@ -2708,6 +2709,7 @@ body.blur .menu::after {
   flex: none;
   order: 3;
   flex-grow: 0;
+  background: #000;
 }
 
 .see-project:hover {

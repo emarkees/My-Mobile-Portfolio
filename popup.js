@@ -71,9 +71,9 @@ cardWork.forEach((item) => {
       <ul class="technologies-label">
         ${item.technologies.map((tech) => `<li class="tags_li">${tech}</li>`).join('')}
       </ul>
-     
+        <div class="see-action">
         <button class="see-project" type="button"> See Project </button>
-      
+        </div>
     </div>
   </div>`;
 });
